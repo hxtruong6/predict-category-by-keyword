@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    /* height: 100vh; 100% viewport height */
+    margin: 0;
+}
+
+#input-container {
+    margin: 10px;
+}
+
+#textInput {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+#showTableButton {
+    padding: 5px 10px;
+    background-color: #bc66fd;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#table-container {
+    display: none; /* Hide the table initially */
+    margin-top: 10px;
+}
+
+#dataTable {
+    border-collapse: collapse;
+}
+
+#dataTable th, #dataTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#dataTable th {
+    background-color: #f2f2f2;
+}

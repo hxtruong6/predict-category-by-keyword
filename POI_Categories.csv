@@ -1,0 +1,1000 @@
+﻿No.,code,Cate,Keyword
+2,100-1000-0004,Restaurant,"Nhà hàng, quán ăn, tiệm ăn có bàn ghế lịch sự, (Vd: quán mì, quán phở, tiệm cơm..) . Nhớ chọn thêm Sub-Cate
+** Bạn chọn trực tiếp bên SUB-Cate (giúp mình nhé)"
+3,100-1100-0010,Food Market-Stall,"Gian hàng ẩm thực, Xe bán đồ ăn, Sạp bán đồ ăn (Bán trong sạp/ hoặc quầy xe/ thường ở hội chợ, hoặc sự kiện..)"
+4,200-2000-0000,Coffee Shop,"Quán cà phê, Coffee… hoặc quán nước bất kỳ có bàn ghế ngồi lại, phục vụ các loại nước chung chung bao gồm cà phê."
+5,200-2000-0012,Nightlife-Entertainment,"Dịch vụ giải trí về đêm,  bar, Pub, quán Bia bọt vỉa hè... ( Các dịch vụ giải trí về đêm nói chung, thường cung cấp đồ uống có cồn)"
+6,200-2000-0014,Night Club,"Hộp Đêm, Vũ Trường, Pub, Lounge nơi có đánh nhạc."
+7,200-2000-0016,Karaoke,Karaoke
+8,200-2000-0017,Billiards-Pool Hall,"Tiệm Bida, Billiards"
+9,200-2100-0019,Video Arcade-Game Room,Tiệm điện tử thẻ
+10,200-2200-0000,Cinema,Rạp chiếu phim trong nhà/ ngoài trời
+11,300-3000-0000,"Theatre, Music and Culture","Rạp hát, Sân khấu kịch, Nhà văn hóa. - Nơi trình diễn nghệ thuật nói chung"
+12,300-3000-0023,Landmark Attraction,"Địa điêm thu hút - Là [Quan cảnh] hoặc [Kiến trúc] có thể nhìn thấy, nhận ra dễ dàng từ mọi khoảng cách trong khu vực đó. (vd: Landmark 81, Bitexco…)"
+13,300-3000-0024,Tourist Attraction,"Địa điểm thu hút - dành cho khách du lịch (ví dụ: nhà thờ đức bà, bà nà hills, bưu điện thành phố, chứng tích chiến tranh, hồ gươm…)"
+14,300-3000-0025,Gallery,Phòng trưng bày - Địa điểm thu hút về loại hình nghệ thuật
+15,300-3100-0000,Historical Monument,Di tích lịch sử - địa điểm thu hút về giá trị văn hóa lịch sử.
+16,300-3200-0030,Museum,"Bảo tàng - địa điểm [bảo tồn] và [triển lãm] các hiện vật nghệ thuật, lịch sử hoặc khoa học."
+17,300-3200-0031,Church,"Nhà Thờ, giáo đường -  Nơi thờ phượng chúa."
+18,300-3200-0034,Temple,"Đền thờ, chùa - Khu vực thờ phượng tín ngưỡng về tôn giáo và hoạt động tâm linh (Phật Giáo, Hindu Giáo…)"
+19,350-3500-0233,Mosque,Nhà Thờ Hồi Giáo - Nơi thờ phượng của những người đạo Hồi.
+20,400-4100-0035,Body of water,"Khu vực địa lý có nước - vd như hồ, sông, suối và đại dương."
+21,400-4100-0036,Train Station,Ga Tàu hỏa (Xe lửa)
+22,400-4100-0041,Bus Station,Trạm xe buýt (xe bus)
+23,400-4300-0000,Transportation Service,"Dịch vụ giao thông - (Trụ sở cung cấp các dịch vụ du lịch hàng không, limo và taxi dịch vụ.) vd: Trạm mua vé của Phương Trang, Thành Bưởi, Hoa Mai... văn phòng bán vé máy của Vietjet..)"
+24,500-5000-0053,Rest Area,Khu vực dừng chân - Trạm dừng. (Một cở sở nằm trên đường quốc lộ/ cao tốc mà cung cấp nhà vệ sinh và chỗ đậu xe)
+25,500-5100-0057,Hotel,Khách sạn
+26,550-5510-0202,Guest House,Nhà nghỉ
+27,550-5510-0378,Bicycle and Bicycle Accessories Shop,Cửa hàng xe dạp và phụ kiện xe đạp - Kinh doanh bán xe đạp và phụ kiện xe đạp.
+28,550-5520-0207,Park-Recreation Area,"Công viên giải trí - Khu vực an ninh được chăm sóc và duy trì cho công cộng, thường thân thiện môi trường, tự nhiên, có cây xanh (Vd: Công viên Tao đàn, Công viên Gia Định, hoặc Hồ Tuyền Lâm..)"
+29,550-5520-0208,Campsite,Khu cắm trại - Một khu vực được chỉ định mọi người có thể sử dụng lều hoặc xe tải cắm trại để ở ngoài trời qua đêm.
+30,550-5520-0210,Amusement Park,"Công viên giải trí - Công viên với nhiều loại hình giải trí, trò chơi, dịch vụ giải trí. vd: Đầm Sen, Suối Tiên..."
+31,550-5520-0211,Zoo,"Sở thú, thảo cầm viên - Một cơ sở nơi các loài vật được nuôi trông lồng hoặc khu vực riêng."
+32,550-5520-0357,Wildlife Refuge,"Khu bảo tồn động vật hoang dã - Cơ sở nơi động vật được nuôi dưỡng và trưng bày trong môi trường tự nhiên của chúng. vd: Safari Phuốc Quốc, Safari Qui Nhơn..."
+33,600-6000-0061,Aquarium,Thủy cung - Nơi cá và các sinh vật dươí nước được nuôi và trưng bày.
+34,600-6100-0062,Water Park,"Công viên nước - Công viên nước thường bao gồm máng trượt nước, miếng đệm nước, sân phun nước (sân chơi nước), dòng sông lười hoặc các tiện nghi liên quan khác."
+35,600-6200-0063,Convenience Store,"Cửa hàng tiện lợi, tạp hóa, bách hóa - Nơi bán đồ tiêu dùng như : kẹo, đồ dùng vệ sinh, nước ngọt, sản phẩm thuốc lá, báo, thức ăn nhanh...."
+36,600-6300-0064,Shopping Mall,"Trung tâm mua sắm - Trung tâm thương mại. Nơi có nhiều thương hiệu và cung cấp đa dạng về các loại hình sản phẩm như: tiêu dùng, bách hóa, điện máy, thời trang, trang sức, và cả nhà hàng, siêu thị, cửa hàng tiện lợi.v.v.."
+37,600-6300-0066,Department Store,"Các sạp, gian hàng, store nhỏ buôn bán trong trung tâm thương mại, hay được phân loại theo khu vực (deparment) vd: sạp bán nước hoa Dior, sạp bán tinh dầu, sạp bán bánh kẹo…."
+38,600-6300-0068,Food-Beverage Specialty Store,"Hàng quán, cơ sở kinh doanh buôn bán đồ ăn, đồ uống và CHUYÊN BIỆT về 1 loại sản phẩm cụ thể. Thường phải có nhà cửa, ghế ngồi lại. Quy mô nhỏ, quán cóc hoặc có thể lớn. Như là tiệm kem, tiệm bánh trán trộn, quán cá viên chiên... trà sữa, sinh tố"
+39,600-6300-0244,Grocery,"Cửa hàng tạp hóa - Nơi bán lượng lớn thực phẩm đa dạng bao gồm những sản phẩm tươi, thực phẩm động lạnh, sản phẩm đóng gói, mặt hàng bánh và sản phẩm từ thịt... ( Phải bán thịt, cá, hàng chợ thì mới là grocery, còn chỉ đồ tiêu dùng thôi thì sẽ là convenience store)"
+40,600-6300-0363,Wine and Liquor,"Cửa hàng bia rượu - Nơi bán sản phẩm như bia thùng, sản phẩm rượu."
+41,600-6400-0070,Bakery and Baked Goods Store,"Tiệm bánh, Cửa hàng Bánh: nơi bán bánh mì và các sản phẩm bánh nướng khác. vd: ABC, Đức Phát, Những Chàng Trai..."
+42,600-6500-0072,Butcher,"Cửa hàng, quầy thịt - nơi chuyên bán thịt tươi và hàng hóa liên quan đến thịt như bao tử, lòng, phèo, huyết..."
+43,600-6500-0075,Drugstore,Hiệu thuốc - (hiện không dùng Cate này nữa)
+44,600-6600-0077,Pharmacy,"Nhà thuốc, tiệm thuốc chung, nơi buôn bán và phân phối các mặt hàng liên quan đến dược phẩm, thuốc men"
+45,600-6600-0078,Consumer Electronics Store,"Cửa hàng điện tử tiêu dùng - Doanh nghiệp bán đồ điện tử và giải trí (điện thoại, TV và hệ thống game.) và cả đồ gia dụng sử dụng điện ( tủ lạnh, quạt, nồi microwave, máy xay sinh tố, máy đánh trứng..)  Vd: Nguyễn Kim, Lock&Lock, …"
+46,600-6600-0079,Market,Chợ
+47,600-6600-0080,Computer and Software,"Cửa hàng máy tính: buôn bán chuyên về sản phẩm máy tính bao gồm phần cứng, phần mềm và các phụ kiện liên quan như bao chóng sốc, quạt tản nhiệt, chuột, cục sạc, pin… Vd: Phong Vũ"
+48,600-6600-0082,Home Improvement-Hardware Store,"Vật liệu xây dựng - Cửa hàng Vật liệu thô như xi măng, inox, sắt, đá hoa cương, đá lót...
+Hoặc bán các sản phẩm cải tiến nhà như bồn cầu, vòi hoa sen, bồn tắm, bồn rửa tay"
+49,600-6600-0083,Home Specialty Store,"Cửa hàng phụ kiện nội thất: bán các sản phẩm TIỂU TIẾT chuyên dụng cho việc trang trí nội thất, (vd: bản lề, nút tủ, tay cầm cửa, phù điêu, xào phơi..) và cả dịch phụ thiết kế, điều chỉnh cho nội thất."
+50,600-6600-0084,Floor and Carpet,"Doanh nghiệp chuyên bán Sàn và Thảm - Doanh nghiệp kinh doanh sàn và thảm. ( vd: gỗ lót sàn, tấm lót xi măng., thảm trải..)"
+51,600-6600-0319,Furniture Store,"Cửa hàng nội thất - Doanh nghiệp bán nội thất và phụ kiện gia đình. vd: giường, tủ, kệ, sofa, bàn ăn, ghế, rèm cửa, đèn ngủ.. và các các sản phẩm gia dụng không sử dụng điện (nồi, chảo, chén, bát, thớt, dao..)"
+52,600-6700-0087,Garden Center,Vật tư sân vườn: Cửa hàng bán đồ làm vườn.
+53,600-6800-0000,Glass and Window,"Cửa hàng, doanh nghiệp kinh doanh sản phẩm và dịch vụ liên quan đến gương, kính và cửa sổ ( bao gồm lắp đặt)"
+54,600-6800-0089,Lumber,"Cửa hàng gỗ, vật liệu gỗ - Doanh nghiệp bán sản phẩm làm từ gỗ."
+55,600-6800-0090,Paint Store,Cửa hàng sơn - Doanh nghiệp bán sơn và các sản phẩm liên quan.
+56,600-6800-0091,Bookstore,"Hiệu Sách, tiệm sách - Doanh nghiệp nhỏ lẻ bán chủ yếu là sách."
+57,600-6800-0092,Clothing and Accessories,"Quần áo và phụ kiện. Doanh nghiệp bán các mặt hàng may mặc, phụ kiện thời trang chung chung cho nam, nữ và trẻ em."
+58,600-6900-0000,Men's Apparel,Trang phục nam - Kinh doanh trang phục và phụ kiện cho nam.
+59,600-6900-0094,Women's Apparel,Trang phục nữ - Kinh doanh trang phục và phụ kiện cho nữ.
+60,600-6900-0095,Children's Apparel,Trang phục trẻ em - Kinh doanh trang phục và phụ kiện cho trẻ em
+61,600-6900-0096,Shoes-Footwear,Cửa hàng giầy - Kinh doanh bán giày.
+62,600-6900-0097,Consumer Goods,"Hàng tiêu dùng - sản phẩm tiêu dung như là xà bông, thức ăn nhanh, bánh snack, sữa... KHÔNG có thịt, cá, rau, củ nhe"
+63,600-6900-0101,Sporting Goods Store,"Cửa hàng dụng cụ thể thao - và các mặt hàng liên quán đến thể thao (vd: quần áo thể thao, vượt tennis, banh tennis...)"
+64,600-6900-0103,Office Supply and Services Store,"Văn phòng phẩm và dịch vụ văn phòng - kinh doanh vật tư văn phòng. Các doanh nghiệp này cung cấp dịch vụ chuyên dụng (In ấn, photocopy, thiết kế đồ họa, vận chuyển và quảng cáo)."
+65,600-6900-0105,Specialty Store,"Cửa hàng Sản phẩm chuyên biệt - kinh doanh MỘT loại hàng hóa cụ thể và chuyên cho sản phẩm đó luôn (vd: nến, đồ lót, dép thái lan, xà bông handmade, tỏi Lý Sơn, khô gà, thuốc lá...)"
+66,600-6900-0106,Pet Supply,Dịch vụ thú cưng - Kinh doanh sản phẩm và dịch vụ cho thú cưng.
+67,600-6900-0108,Flowers and Jewelry,"Tiệm hoa (Shop hoa) và Trang sức - Kinh doanh mua bán hoặc các dịch vụ liên quan trang sức, hoa tươi."
+68,600-6900-0246,"Gift, Antique and Art","Shop quà tặng, đồ cổ và nghệ thuật - Kinh doanh bán đồ cổ nghệ thuật, quà, đồ ĐỘC LẠ, lưu niệm (vd: sổ tay, quà lưu niệm, thiệp, lưu bút, mấy món đồ kỳ dị như lưới nhện, đầu lâu phát sáng, đèn hộp chiếu sao..)"
+69,600-6900-0247,"Record, CD and Video","Tiệm CD, băng đĩa"
+70,600-6900-0248,Video and Game Rental,"Cho thuê Video và Game - kinh doanh thuê băng video, DVD, hoặc trò chơi điện tử."
+71,600-6900-0251,Vaping Store,Cửa hàng vaping - Cửa hàng bán thuốc lá điện tử và phụ kiện vaping khác.
+72,600-6900-0305,Motorcycle Accessories,Phụ kiên xe máy- Doanh nghiệp kinh doanh phụ kiện xe máy.
+73,600-6900-0358,Used-Second Hand Merchandise Stores,"Cửa hàng đồ đã qua sử dụng - Kinh doanh hàng hóa đã qua sử dụng như quần áo, đồ nội thất và đồ chơi. Hàng hóa trong kho cực kỳ đa dạng.(vd: đồ 2nd hand, đồ cũ)"
+74,600-6900-0388,Adult Shop,"Cửa hàng người lớn - Kinh doanh mặt hàng dành riêng cho người lớn, có liên quan đến tình dục."
+75,600-6950-0000,Toy Store,Cửa hàng đồ chơi - Tự làm hoặc buôn bán đồ chơi.
+76,600-6950-0399,Hunting-Fishing Shop,"Cửa hàng săn bắn, câu cá - kinh doanh mặt hàn liên quan (ủng, cần câu, cuộn và một số phụ kiện khác)."
+77,700-7000-0107,Hair and Beauty,"Cửa hàng chăm sóc tóc và sắc đẹp như: Hair salon cung cấp dịch vụ tạo kiểu tóc và trang điểm cá nhân. Ở đây có thể bán các sản phẩm tóc và các mặt hàng mỹ phẩm liên quan khác. (wax, dưỡng tóc, thuốc nhuộm, dầu xã...) hoặc Shop Mỹ Phẩm, làm đẹp. ( son môi, phấn mắt, lotion, kem chống nắng..)"
+78,700-7010-0108,Barber,Tiệm hớt tóc NAM- cung cấp dịch vụ cắt tóc và có dịch vụ cạo/ tỉa râu.
+79,700-7100-0000,Bank,"Ngân hàng - Doanh nghiệp chuyên bảo trì, cho vay, trao đổi hoặc phát hàn tiền. Các vị trí trong danh mục này bao gồm ngân hàng trung tâm, ngân hàng nhỏ lẻ và tín dụng."
+80,700-7200-0253,ATM,"ATM - Thiết bị cung ấp khả năng gửi, rút hoặc chuyển tiên mà không cần sư trợ giúp của giao dịch viên ngân hàng."
+81,700-7200-0254,Communication-Media,"Phương tiện truyền thông - Cung cấp dịch vụ truyền thông (ngoại trừ qua liên lạc qua điện thoại). Vd: Đài truyền hình, Đài phát thanh..."
+82,700-7200-0257,Catering and Other Food Services,"Dịch vụ cung cấp đồ ăn cho các sự kiện. Vd: Bánh kem đãi khách tham gia, đồ ăn tặng mang về"
+83,700-7200-0258,Construction,"Công trường/ công ty xây dựng - Doanh nghiệp tham gia vào việc xây dựng, kiến trúc lớn."
+84,700-7200-0265,Farming,"Nông nghiệp - Doanh ngiệp cung cấp dịch vụ hổ trợ cho các vung sản xuất và quản lý  sợi, nhiên liệu và thực phẩm (Ngủ cốc, nuôi ca và chăn nuôi)."
+85,700-7200-0268,Food Production,Sản xuất lương thực - Doanh nghiệp tham gia và sản xuất thực phẩm.
+86,700-7200-0271,Manufacturing,"Chế tạo, Dây chuyền sản xuất - Doanh nghiệp tham gia vào việc hoàn chỉnh sản phẩm từ nguyên liệu thô, ở quy mô công nghiệp lớn."
+87,700-7200-0274,Motorcycle Service and Maintenance,Dịch vụ bảo trì xe máy - Doanh nghiêp cung cấp dịch vụ bảo dưỡng và sửa chữa xe máy.
+88,700-7200-0276,Finance and Insurance,"Tài chính và bảo hiểm - doanh nghiệp cung cấp dịch vụ ủy thác tín dụng, lưu ký, tài chính công và các cơ sở đại lý (môi giới) trong việc buôn bán hiện kim và chính sách bảo hiểm."
+89,700-7200-0342,Rental and Leasing,"Dịch vụ thuê mướn - Dịch vụ thuê mướn không bao gồm các loại khác (Vì dụ: Thuê thuyền, thuê dịch thiết bị y tế, thuê xe đạp, cho mướn đồng phục….)"
+90,700-7200-0344,Printing and Publishing,"In ấn và xuất bản - Doanh nghiệp cung cấp in ấn và xuất bản sản phẩm báo chi, tạp chí và phần mềm."
+91,700-7250-0136,Interior and Exterior Design,Thiết kế nội - ngoại thất - Doanh nghiệp cung cấp dịch vụ trang trí nội ngoại thất và thiết kế.
+92,700-7300-0111,Property Management,Quản lý tài sản - Doanh nghiệp hoạt đọng và quản lý bất động sản.
+93,700-7300-0113,Business Facility,"Cơ sở kinh doanh nói chung, vd: văn phòng, công ty, văn phòng đại diện..."
+94,700-7400-0000,Police Station,Đồn cảnh sát - Văn phòng trụ sở lực lượng cảnh sát địa phương.
+95,700-7400-0133,Fire Department,Sở cứu hỏa - Cơ quan địa phương/ thành phố chịu trách nhiệm phòng cháy chữa cháy. Nhân viên bao gồm toàn thời gian hoặc tình nguyện viên.
+96,700-7400-0137,Consumer Services,"Công ty cung cấp dịch vụ tiêu dùng cho nhiều sản phẩm sử dụng đại chúng. vd: Shopee, Lazada, Sendo, Tiki, Cầm Đồ,..."
+97,700-7400-0138,Travel Agent-Ticketing,"Đại lý du lịch - bán vé - Doanh nghiệp bán lịch trình du lịch và lịch trình cho hành khách. Dịch vụ bao gồm hàng không và vân chuyển mặt đất. Danh mục này bao gồm tư vấn du lich, môi giới bảo hiểm du lịch, đại lý du lịch, etc.."
+98,700-7400-0141,Dry Cleaning and Laundry,Giặt ủi và làm sạch - Cung cấp dịch vụ giặt khô và giặt chuyên nghiêp.
+99,700-7400-0144,Attorney,Luật sư - Doanh nghiệp cung cấp đại diện pháp lý hoặc tư vấn về pháp luật.
+100,700-7400-0146,Business Service,"Dịch vụ kinh doanh - Một cơ sở bán lẻ hoặc kinh doanh cung cấp dịch vụ chuyên nghiệp cho các doanh nghiệp khác, chẳng hạn như in ấn, photocopy, thiết kế đồ họa và quảng cáo."
+101,700-7400-0147,Photography,"Nhiếp ảnh - Doanh nghiệp cung cấp dịch vụ chụp ảnh chuyên nghiệp, phát triển hình ảnh hoặc cung cấp hình ảnh."
+102,700-7400-0149,Repair Service,Dịch vụ sửa chữa - Doanh nghiệp cung cấp dịch vụ sữa chữa cho các loại hàng tiêu dùng. Hầu hết dịch vụ sữa chữa chuyên về sửa chữa điện tử hoặc giày. Danh mục này không bao gồm dịch vụ tự động.
+103,700-7400-0152,Social Service,"Dịch vụ xã hội - Doanh nghiệp cung cấp dịch vụ hổ trợ những người hoàn cảnh khó khăn, nâng cao phúc lợi cho con người. Dịch vụ xã hội bao gồm các tổ chức tư nhân và chính phủ tài trợ."
+104,700-7400-0281,Tailor and Alteration,"May đo, sửa chữa - Doanh nghiệp làm, sữa chữa hoặc thay đổi hàng hóa may mặc."
+105,700-7400-0282,Waste and Sanitary,"Chất thải và vệ sinh - Doanh nghiệp chuyển giao, xử lý, giữ, làm sạch, xử lý chất thải rắn. Có thể được tư nhân hoặc chính phủ tài trợ."
+106,700-7400-0283,Bicycle Service and Maintenance,Dịch vụ bảo trì xe đạp - Doanh nghiêp cung cấp dịch vụ sửa chữa và bảo trì xe đạp.
+107,700-7400-0284,Bill Payment Service,Dịch vụ thanh toán hóa đơn - Doanh nghiệp cung cấp dịch vụ thanh toán hóa đơn.
+108,700-7400-0285,Body Piercing and Tattoos,Bâm khuyên cơ thể và hình xăm - Doanh nghiệp cung cấp dịch vụ xỏ lỗ trên cơ thể hoặc hình xăm.
+109,700-7400-0286,Wedding Services and Bridal Studio,"Dịch vụ cưới và Studio cưới - Doanh nghiệp bán/ cho thuê áo cưới, cung cấp dịch vụ cho cô dâu. Một số doanh nghiệp c1 thể bán sản phẩm cưới hoặc dịch vụ liên quan."
+110,700-7400-0292,Internet Cafe,Dịch vụ cung cấp Internet Công cộng.
+111,700-7400-0293,Kindergarten and Childcare,"Mẫu giáo và nhà trẻ - Doanh nghiệp cung cấp dịch vụ chăm sóc trẻ sơ sinh hoặc trẻ em. Một số doanh nghiệp có thể cung cấp các chương trìh giáo dục. Các doanh nghiệp chăm sóc trẻ khác có thể bao gồm bảo mẫu, và các dịch vụ vú em khác."
+112,700-7450-0114,Wellness Center and Services,"Trung tâm chăm sóc sức khỏe và dịch vụ -  Doanh nghiệp cung cấp nhiều dịch vụ cho việc cải thiện sức khỏe, sắc đẹp và thư giãn. Các dịch vụ điển hình có thể bao gòm các phương phpa1 điều trị chăm sóc cá nhân như châm cứu, mát xa hoặc y học Trung Quốc."
+113,700-7600-0000,Pet Care,"Chăm sóc thú cưng - Doanh nghiệp cung cấp các dịch vụ chăm sóc thú cưng chuyên dụng (Nội trú, chải chuốt, ngồi, đi bộ, huấn luyện. Danh mục này không bao gồm dịch vụ thú y,"
+114,700-7600-0116,Post Office,"Bưu điện - Một văn phòng hoặc quầy nhận, sắp xếp, gửi và vận chuyển thư đến khu vực cụ thể. Điêu này bao gồm chi nhánh địa phươnog hoặc văn phòng quốc gia. Một số có thể tính cước bưu phí và cung cấp các dịch vụ vận chuyển khác."
+115,700-7800-0118,Fueling Station,Doanh nghiệp bán nhiên liệu cho xe cộ. 
+116,700-7800-0119,Petrol-Gasoline Station,"Trạm xăng - Doanh nghiệp bán nhiên liệu, dầu và các nguồn cung cấp động cơ khác."
+117,700-7800-0120,Automobile Dealership-New Cars,Đại lý ô tô xe mới - Một doanh nghiệp bán ô tô mới. Lưu ý: danh mục này được bảo vệ và sở hữu riêng của HERE.
+118,700-7850-0000,Automobile Dealership-Used Cars,Đại lý ô tô đã qua sữ dụng. - Doanh nghiệp bán ô tô đã qua sở hữu.
+119,700-7850-0121,Motorcycle Dealership,Đại lý xe máy - Doanh nghiệp bán xe máy. Lưu ý: danh mục này được bảo vệ và sở hữu riêng của HERE.
+120,700-7850-0123,Car Repair-Service,Dich vụ sửa chữa xe hơi - Doanh nghiệp cung cấp dịch vụ sửa chữa ô tô.
+121,700-7851-0117,Car Wash-Detailing,"Rửa sửa xe - Doanh nghiệp cung cấp dịch vụ làm sạch ô tô- Một số có thể cung cấp chi tiết bên ngoài, chi tiết nội thất của xe hoặc cả hai."
+122,700-7900-0130,Auto Parts,Phụ tùng ô tô - Doanh nghiệp bán các bộ phận và phụ kiện cho ô tô. Đại lý ô tô bán phụ tùng ô tô như một dịch vụ kèm theo không được áp dụng.
+123,800-8000-0154,Rental Car Agency,Đại lý thuê xe hơi - Doanh nghiệp cho thuê hoặc cho thuê ô tô.
+124,800-8000-0155,Truck Dealership,Đại lý xe tải - Một đại lý bán xe tải nặng mới/ xe tải lớn. Lưu ý: danh mục này được bảo vệ và sở hữu riêng của HERE.'
+125,800-8000-0157,Dentist-Dental Office,"Nha sĩ Nha khoa - Cơ sở chăm sóc sức khỏe cung cấp dịch vụ nha khoa. Các dịch vụ thường bao gồm việc làm sạch, kiểm tra, nha khoa thẩm mĩ, làm răng giả, niềng răng và các dịch vụ liên quan."
+126,800-8000-0158,Family-General Practice Physicians,"Bác sĩ đa khoa gia đình - Văn phòng Cơ sở chăm sóc sức khỏe cung cấp dịch vụ y tế cho cá nhân/ gia đình. Các dịch vụ thường bao gồm tư vấn y tế, điều trị cá bệnh cụ thể/ cấp tính/ chăm sóc phòng người và cac dịch vụ y tế liên quan."
+127,800-8000-0159,Nursing Home,"Viện Dưỡng Lão - Một cơ sở chăm sóc sức khỏe, cung cấp dịch vụ chăm sóc y tế và chăm sóc y tế toàn thời gian cho người già, bệnh mãn tính hoặc nhưng người không thể tự chăm sóc bản thân."
+128,800-8000-0161,Medical Services-Clinics,"Dịch vụ phòng khám - Cơ sở chăm sóc sức khỏe, cung cấp dịch vụ y tế nói chung, không liên quan trực tiếp hay kết nối với bệnh viên y tế. Một số nơi có thể chuyên lĩnh vực y học riêng biệt."
+129,800-8000-0162,Hospital,Bệnh viện - Một tổ chức/ cơ sở cung cấp điều trị y tế hoặc phẩu thuật cho người bệnh/ bị thương. Một số địa điểm có thể bao gồm phòng cấp cứu phức hợp và trung tâm chấn thương. Lưu ý: danh mục này được bảo vệ và sở hữu riêng của HERE.'
+130,800-8000-0367,Optical,"Hiệu Kính mắt - Cơ sở chăm sóc sức khỏe kinh doanh bán kính mắt, lens, và các dụng cụ quang học khác, và có bác sĩ nhãn khoa."
+131,800-8100-0164,Veterinarian,"Bác sĩ thú ý - Cơ sở chăm sóc sức khỏe thực hành thuốc thú y hoặc phẩu thuật. Các dịch vụ bao gồm phòng, chữa bệnh, giảm đau cho động vật, đặc biệt là vật nuôi. Danh mục bao gồm cac địa điểm thú ý được đặt tên, bệnh viện động vật và dịch vụ thú y khẩn cấp."
+132,800-8100-0169,Blood Bank,"Ngân hàng máu - Dịch vụ y tế trong đó máu được thu nhận từ người hiến, phân loại, được lưu trữ và chuẩn bị truyền máu cho người nhận."
+133,800-8100-0170,Embassy,Đại sứ quán - Tòa nhà chính phủ đại diện ngoại giao của nước ngoài. Lưu ý: Danh mục được sở hữu và bảo vệ bởi HERE.
+134,800-8100-0171,Civic-Community Center,"Trung tâm cộng đồng - Tòa nhà chính phủ cung cấp không gian cho các sự kiện cộng đồng, sự kiện đặc biệt, chương trình theo mùa, tổ chức các lớp học cũng như không gian chung cho thuê."
+135,800-8200-0173,Court House,Tòa án - Tòa nhà chính phủ phục vụ như một tòa án Pháp luật địa phương.
+136,800-8200-0174,Government Office,"Văn phòng chính phủ - Tòa nha chính phủ bao gồm văn phòng liên bang, văn phòng đô thị, văn phòng tỉnh, các bộ và các cơ quan chính phủ khác. Ví dụ: Bộ tài chính/ Bộ nông nghiệp"
+137,800-8200-0295,Higher Education,"Trường học bậc học cao: như Cao Đẳng, đại học, Trường nghề kỹ thuật, Academy chuyên về học thuật."
+138,800-8300-0175,School,"Trường học nói chung: cấpTiểu học, Trung Học Cơ Sở, Trung Học Phổ thông."
+139,800-8400-0000,Training and Development,"Đào tạo và phát triển - Tổ chức cung cấp giáo dụcva2 đào tạo, phát triển khóa học, ngôn ngữ thứ 2, kỹ năng thuyết trình, kỹ năn kỹ thuật và một số dịch vụ giáo dục liên quan."
+140,800-8400-0139,Library,"Thư viện - Một nơi trong đó tài liệu văn học, âm hạc, nghệ thuật hoặc tài liệu tham khảo được lưu giữ để sử dụng và lưu hành, nhưng không phải để bán."
+141,800-8400-0176,Event Spaces,"Không gian sự kiện - Cơ sở cung cấp không gian cho các sự kiện lớn, triển lãm thương mại, hội chợ thương mại hoặc hội nghị."
+142,800-8500-0000,Banquet Hall,"Phòng tiệc - Cơ sở cung cấp cho thuê phong hoặc tòa nhà ngắn hạn với mục đích tổ chức tiệc, sự kiện xã hội khác. Phòng tiệc đặt tại các cơ sở khác, chẳng hạn như CLB , nhà hàng và khách sạn."
+143,800-8600-0000,Convention-Exhibition Center,"Trung tâm hội nghị - triễn lãm - Cơ sở cung cấp không gin cho các sự kiện lớn như triễn lãm thương mại, hôi chợ thương mại hoặc hội nghị."
+144,800-8600-0181,Parking,Khu vực đỗ xe - Khu vực được dùng để đỗ xe cơ giới.
+145,800-8600-0182,Sports Facility-Venue,Địa điểm tổ chức thể thao - Cơ sở tổ chức cac sự kiện thể thao.
+146,800-8600-0183,Ice Skating Rink,Sân trượt băng - Cơ sở cung cấp lại hình trượt băng.
+147,800-8600-0184,Swimming Pool,Hồ bơi - Cơ sở cung cấp bể chứa nước để bơi lội.
+148,800-8600-0188,Tennis Court,Sân quần vợt - Cơ sở cung cấp Sân để chơi tennis.
+149,800-8600-0189,Bowling Center,Trung tâm Bowling -  Cơ sở trong nhà có những đường lane thiết kế rieng cho chơi Bowling.
+150,800-8600-0191,Shooting Range,Trường bắn - Cơ sở cung cấp khu vực bắn kèm theo mục tiêu thực hành với súng.
+151,800-8600-0192,Soccer Club,CLB Bóng đá - Cơ sở cung cấp sân bóng đá.
+152,800-8600-0193,Fitness-Health Club,"Câu lạc bộ thể hình, phòng Gym - Cơ sở cung cấp các lớp học, thiết bị tập để dục và điều hòa thể chất. Thường sẽ yêu cầu phí thành viên."
+153,800-8600-0194,Indoor Sports,"Thế thao trong nhà - Cơ sở ung cấp khu vực thiết kế để chơi các môn thể thao trong nhà (Bóng rổ, bóng chuyền, cricket, thể dục dụng cụ, bóng bàn….)"
+154,800-8600-0195,Golf Course,Sân Golf - Khu vực chơi golf. Khu vực thường chứa 9 -18 lỗ. Có thể là nơi công cộng hoặc tư nâhn. Yêu cầu phí thanh viên.
+155,800-8600-0197,Golf Practice Range,Sân tập chơi Golf - Khu vực dành cho thực hành những cú đánh dài và bóng được cơ sở cung cấp. Yêu cầu lệ phí tham gia.
+156,800-8600-0199,Race Track,"Trường đua - Cơ sở cung cấp đường đất cỏ/ đường trải nhựa thiết kế cho động vật đua (ngựa, chó), xe cộ hoặc vận động viên. Thường có khán đài."
+157,800-8600-0200,Sports Activities,Hoạt động thể thao - Cơ sở hoạc khu vực chơi thể thao giải trí/ nghiệp dư.
+158,800-8600-0381,Basketball,Bóng rổ - Cơ sở được thiết kế để chơi bóng rổ.
+159,800-8700-0166,Badminton,Cầu lông - Cơ sở được thiết kế đặc biệt để chơi cầu lông
+160,800-8700-0167,Running Track,"Đường chạy - Đặc điểm chung: Bề mặt nhân tạo (Thường bọc cao su), được thiết kế với chiều dài và rộng đặc trưng."
+161,900-9200-0218,Cemetery,"Nghĩa trang - Khu vực được chỉ định có một phần, lăng hoặc bình tro cốt. Bao gồm: sân nhà thờ, bãi chôn lấp và nghĩa địa."
+162,900-9200-0299,Crematorium,"Khu vục hỏa táng, trại thiêu - Cơ sở nơi thiêu/ hỏa táng."
+163,900-9300-0221,Industrial Zone,"Khu công nghiệp - Khu vực phi dân cư dành riêng cho sản xuát, hoạt đông công nghiệp/ kho lưu trữ. Bao gồm các khu kinh doanh các ngành công nghiệp dịch vụ."
+164,400-4100-0044,Collective Community,"Cộng đồng tập thể - Cơ sở cung cấp khu vưc tổ chức sự kiện xã hội, chính trị, tôn giáo, tâm linh. VS: Kibbuts, Dojos, Moshavs, xã nông nghiệp, làng sinh thái, cộng đồng nghệ thuật, tu viện và nhà hợp tác xã."
+165,000-0000-0000,Residential Area-Building,"Khu dân cư, chung cư - Tòa nhà chỉ định dành riêng cho dân dụng."
+166,,Ferry Terminal,"Hải cảng, bến tàu"
+167,,Auto Parts,Phụ tùng ô tô 
+168,,Automobile Dealership-New Cars,Bán xe ô tô mới 
+169,,Automobile Dealership-Used Cars,Bán xe ô tô đã qua sử dụng 
+170,,Bakery ,Tiệm bánh 
+171,,Banquet Hall,Nhà hàng 
+172,,Barber ,Tiệm tóc (chỉ có nam)
+173,,Barber ,Cắt tóc nam
+174,,Bicycle and Bicycle Accessories Shop,Cửa hàng xe đạp
+175,,Bicycle Service and Maintenance,Sửa chữa xe đạp 
+176,,Bill Payment Service,Thanh toán hóa đơn
+177,,Billiards-Pool Hall,Tiệm Bida 
+178,,Body Piercing and Tattoos,Cửa hàng xăm 
+179,,Bookstore ,Nhà sách 
+180,,Bus station,Trạm xe buýt 
+181,,Business Facility,Trung tâm đăng kiểm
+182,,Butcher ,Bán thịt sống
+183,,Car Repair-Service,Dịch vụ sửa chữa xe ô tô/ garage 
+184,,Car Wash-Detailing,Dịch vụ rửa xe ô tô
+185,,Car Wash-Detailing,Nội thất ô tô
+186,,Catering and Other Food Services,Dịch vụ nấu ăn 
+187,,Catering and Other Food Services ,"Nấu tiệc, đặt cỗ"
+188,,Cemetery,Nghĩa trang 
+189,,Children's Apparel,Thời trang trẻ em
+190,,Clothing and Accessories,Quần áo phụ kiện 
+191,,Clothing and Accessories,"Túi xách, phụ kiện"
+192,,Coffee shop ,Quán cà phê 
+193,,Collective Community,"Nhà văn hóa, hợp tác xã"
+194,,Computer and Software,Cửa hàng máy tính/ vi tính 
+195,,Consumer Electronics Store,Cửa hàng điện thoại 
+196,,Consumer Electronics Store,Đồ gia dụng 
+197,,Consumer Electronics Store,Camera
+198,,Consumer electronics store ,"Sim thẻ, card điện thoại"
+199,,Consumer Goods ,Cửa hàng tạp hóa 
+200,,Consumer Service,Trại hòm
+201,,Consumer service ,"Phế liệu, ve chai, sắt vụn"
+202,,Consumer service ,Dịch vụ mai táng 
+203,,Consumer service ,Cầm đồ
+204,,Convenience Store,Cửa hàng tạp hóa/ tiện lợi Family Mart/ Ministop
+205,,Court House,Tòa án 
+206,,Dentist-Dental Office,"Phòng khám răng, nha khoa "
+207,,Dry Cleaning and Laundry,Giặt ủi
+208,,Embassy,Đại sứ quán 
+209,,Farming,Vườn dâu
+210,,Finance and Insurance,Công ty bảo hiểm 
+211,,Finance and Insurance,"Quỹ tín dụng, quỹ đầu tư"
+212,,Fitness-Health Club,Phòng tập gym/ yoga
+213,,Floor and Carpet,Gỗ lót sàn 
+214,,Flowers and Jewelry,Tiệm hoa 
+215,,Flowers and Jewelry,"Trang sức, vàng bạc đá quý"
+216,,Food -market stall ,"Rau má Mix, nước mía"
+217,,Food Production,Chả giò nhà làm 
+218,,Food production,Lò Bánh Mì
+219,,Food-beverage specialty store   ,Bánh tráng trộn 
+220,,Food-beverage specialty store   ,Trà sữa 
+221,,Food-beverage specialty store   ,Cá viên chiên 
+222,,Food-beverage specialty store   ,Sinh tố 
+223,,Food-beverage specialty store   ,Tiệm kem 
+224,,Food-beverage specialty store   ,Hải sản (tươi sống)
+225,,Food-beverage specialty store   ,Giò Chả
+226,,Food-beverage specialty store   ,Trái cây
+227,,Furniture Store,Cửa hàng nội thất
+228,,Furniture Store,Thủ công mỹ nghệ
+229,,Gardent,"Phân bón, làm vườn"
+230,,"Gift, Antique and Art",Đồ lưu niệm 
+231,,Glass and Window,Cửa hàng gương kính 
+232,,Government Office,Sở tài nguyền 
+233,,Government Office,Bộ tài chính 
+234,,Government Office,Bộ nông nghiệp 
+235,,Government Office,Ủy ban nhân dân xã/ phường 
+236,,Government Office,Trạm biến áp
+237,,Grocery ,Cửa hàng tạp hóa 
+238,,Guest house ,Nhà nghỉ 
+239,,Guest house ,Nhà Khách
+240,,Hair and beauty,"Cắt tóc nam-nữ, cắt tóc nữ"
+241,,Hair and Beauty ,"Tiệm Tóc (nam, nữ)"
+242,,Hair and Beauty ,Bán mỹ phẩm 
+243,,Hair and Beauty ,Nails 
+244,,Hair and Beauty ,Gội đầu
+245,,Hair and Beauty ,"Nail, mi, móng"
+246,,Higher education ,Trường đại học 
+247,,Home Improvement-Hardware Store,"Vật liệu xây dựng (Inox, sắt, xi măng)"
+248,,Home Improvement-Hardware Store,"Bồn cầu, vòi sen, bồn tắm "
+249,,Home Improvement-Hardware Store,Cửa hàng kim khí
+250,,Home Improvement-Hardware Store,"Máy cưa, cắt cỏ"
+251,,Home Improvement-Hardware Store,Điện nước
+252,,Home improvement-Hardware Store,"Điện cơ, điện lạnh"
+253,,Home improvement-Hardware Store,"Đèn Led, điện, bóng đèn"
+254,,Home Specialty Store,Cửa hàng phụ kiện nội thất 
+255,,Hospital ,Bệnh viện 
+256,,Hotel ,Khách sản 
+257,,Interior and Exterior Design,Cửa hàng thiết kế nội thất 
+258,,Internet Cafe,Tiệm net
+259,,Kinder ,Trường mầm non
+260,,Library,Thư viện 
+261,,Lumber,Cửa hàng gỗ 
+262,,Medical Services-Clinics,Phòng khám 
+263,,Men's Apparel,Thời trang nam 
+264,,Motorcycle Accessories,Phụ kiện xe máy 
+265,,Motorcycle Accessories,Dán decal xe máy
+266,,Motorcycle Dealership,Bán xe máy 
+267,,Motorcycle Service and Maintenance,Bảo trì xe máy 
+268,,Night club ,Vũ trường
+269,,Night club ,"Hộp đêm, Pub, Longue"
+270,,Nightlife entertainment ,Phòng trà 
+271,,Nursing home ,Viện dưỡng lão 
+272,,Office Supply and Services Store,"Tiệm photo, in ấn, photocoppy"
+273,,Office Supply and Services Store,Tiệm thiết kế đồ họa 
+274,,Office Supply and Services Store,Văn phòng phẩm 
+275,,Optical,Hiệu kính mắt 
+276,,Paint Store,Cửa hàng sơn
+277,,Parking ,Nhà gửi xe 
+278,,Parking ,"Giữ xe, đậu xe"
+279,,Pet care ,Dịch vụ thú cưng
+280,,Pet supply ,Phòng khám thú y 
+281,,Petrol-Gasoline Station,Trạm xăng 
+282,,Pharmacy ,Nhà thuốc 
+283,,Photography ,Chụp ảnh thẻ 
+284,,Police Station,Công an phường
+285,,Post Office ,Bưu điện 
+286,,Post Office ,Dịch vụ chuyển phát 
+287,,Printing and Publishing,"Công ty in ấn (in báo mềm, tạp chí) "
+288,,Property Management,Bất động sản 
+289,,Property Management,"Mua bán nhà đất, bất động sản"
+290,,Rental and Leasing,Nhà trọ 
+291,,Rental and Leasing,Dịch vụ cho thuê xe máy 
+292,,Rental Car Agency,Đại lý thuê xe ô tô
+293,,Repair service ,Sửa điện thoại
+294,,Residential Area-Building,Chung cư 
+295,,Residential Area-Building,Kí Túc Xá
+296,,Restaurant,Quán nhậu
+297,,Restaurant,"Bún đậu, bún chả"
+298,,Restaurant ,Quán cơm 
+299,,Restaurant ,Hủ tiếu 
+300,,Restaurant ,Phở 
+301,,Restaurant ,Bún 
+302,,Restaurant ,Hải sản (chế biến)
+303,,Restaurant ,Ốc 
+304,,Restaurant ,Bánh cuốn 
+305,,Restaurant ,"Bia hơi/ rượu 	"
+306,,School ,Trường tiếu học/ trung học cơ sở/ phổ thông 
+307,,Shoes-Footwear,Cửa hàng giày 
+308,,Soccer Club,Sân bóng đá 
+309,,Specialty store ,Vé số 
+310,,Specialty store ,Bán gạo 
+311,,Specialty store ,Cửa hàng bán gas
+312,,Specialty store ,Phụ kiện điện thoại 
+313,,Specialty store ,Máy bơm 
+314,,Specialty store ,Cửa hàng đồ da 
+315,,Specialty store ,Phong Thủy
+316,,Specialty store ,Cửa hàng mẹ và bé
+317,,Specialty store ,"Yến sào, các loại đặc sản"
+318,,Sporting Goods Store,Quần áo thể thao 
+319,,Swimming Pool,Hồ bơi 
+320,,Tailor and Alteration,Sửa quần áo 
+321,,Train Station ,Ga tàu 
+322,,Training and Development,Lớp Piano 
+323,,Training and Development,"Dạy thêm (Toán, Lí, Hóa)"
+324,,Training and Development,Trung tâm Tiếng Anh 
+325,,Transportation Service ,Nhà xe 
+326,,Travel Agent-Ticketing,Công ty tư vấn du lịch 
+327,,Travel Agent-Ticketing,Đại lý du lịch 
+328,,Truck Dealership,Đại lý xe tải 
+329,,Vaping Store,"Thuốc lá điện tử, Vape"
+330,,Wedding Services and Bridal Studio,Cửa hàng váy cưới 
+331,,Wedding Services and Bridal Studio,Chụp hình cưới 
+332,,Wedding Services and Bridal Studio,Wedding studio 
+333,,Wellness Center and Services,Thẩm mỹ viện 
+334,,Wellness Center and Services,Spa 
+335,,Wine and Liquor ,Cửa hàng rượu vang 
+336,,Women's Apparel,Thời trang nữ 
+337,,Motorcycle Dealership,"Sửa chữa xe điện, mua bán xe điện"
+338,,Floor and Carpet,"Sàn, sàn nhà, sàn gỗ"
+339,,Consumer Service,Khắc bia mộ
+340,,Post Office ,"Express, giao hàng, vận chuyển"
+341,,Hair and beauty,"Phun xăm thẩm mỹ, nail, mi móng"
+342,,Attorney,"Công chứng, luật sư"
+343,,Consumer Service,Dịch thuật
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,

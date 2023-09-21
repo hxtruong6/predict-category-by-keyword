@@ -1,0 +1,697 @@
+[1m[3m%[23m[1m[0m                                                                                k~/WORK/cms\[0m[23m[24m[J(base) [01;32m➜  [36mcms[00m [K[?1h=[?2004h[0m[23m[24m[J(base) [01;32m➜  [36mcms[00m [1m[31mc[0m[39m[1m[31mc[0m[39monda activate dgm[17D[0m[32mc[32mp[39m                [16D -r * ../[9D[1m[31mc[0m[39m[39m          [10D[1m[31mc[0m[39monda activate dgm[17D[0m[32mc[32mo[32mn[32md[32ma[39m[13C[?1l>[?2004l
+kconda\[1m[3m%[23m[1m[0m                                                                                                                                                                          k~/WORK/cms\[0m[23m[24m[J(dgm) [01;32m➜  [36mcms[00m [K[?1h=[?2004h[32mg[39m[32mg[39municorn -w 2 -b 0.0.0.0:9820 server:app[39D[32mg[32mu[32mn[32mi[32mc[32mo[32mr[32mn[39m[32C[?1l>[?2004l
+kgunicorn\[2023-09-18 17:10:03 +0000] [2335903] [INFO] Starting gunicorn 21.2.0
+[2023-09-18 17:10:03 +0000] [2335903] [INFO] Listening at: http://0.0.0.0:9820 (2335903)
+[2023-09-18 17:10:03 +0000] [2335903] [INFO] Using worker: sync
+[2023-09-18 17:10:03 +0000] [2335904] [INFO] Booting worker with pid: 2335904
+[2023-09-18 17:10:03 +0000] [2335934] [INFO] Booting worker with pid: 2335934
+[2023-09-20 13:25:05 +0000] [2335903] [INFO] Handling signal: winch
+^C[2023-09-20 13:25:10 +0000] [2335903] [INFO] Handling signal: int
+[2023-09-20 13:25:10 +0000] [2335904] [INFO] Worker exiting (pid: 2335904)
+[2023-09-20 13:25:10 +0000] [2335934] [INFO] Worker exiting (pid: 2335934)
+[2023-09-20 13:25:10 +0000] [2335903] [INFO] Shutting down: Master
+[1m[3m%[23m[1m[0m                                                                                                                                                                                                        k~/WORK/cms\[0m[23m[24m[J(dgm) [01;32m➜  [36mcms[00m [K[?1h=[?2004h[1m[31mp[0m[39m[1m[31mp[0m[39mip install gunicorn
+[KM[14C[1m[31mp[1m[31my[0m[39m                  [1B[KM[15Cthon server.py[14D[1m[31mp[1m[31my[1m[31mt[0m[39m[1m[31mt[1m[31mh[0m[39m[1m[31mh[1m[31mo[0m[39m[0m[32mp[0m[32my[0m[32mt[0m[32mh[0m[32mo[32mn[39m[1C[4ms[24m[4ms[4me[24m[4me[4mr[4mv[4me[4mr[4m.[4mp[4my[24m[?2004l[1B[1m[3m%[23m[1m[0m                                                                                                                                                                                                        k~/WORK/cms\[0m[23m[24m[J(dgm) [01;31m➜  [36mcms[00m [K[?1h=[?2004h[32mgunicorn[39m -w 2 -b 0.0.0.0:9820 server:app[?1l>[?2004l
+kgunicorn\[2023-09-20 13:25:37 +0000] [2767285] [INFO] Starting gunicorn 21.2.0
+[2023-09-20 13:25:37 +0000] [2767285] [INFO] Listening at: http://0.0.0.0:9820 (2767285)
+[2023-09-20 13:25:37 +0000] [2767285] [INFO] Using worker: sync
+[2023-09-20 13:25:37 +0000] [2767286] [INFO] Booting worker with pid: 2767286
+[2023-09-20 13:25:37 +0000] [2767316] [INFO] Booting worker with pid: 2767316
+[2023-09-20 13:25:51,195] ERROR in app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/WORK/cms/server.py", line 22, in index
+    return render_template("index.html")
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/flask/templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/flask/templating.py", line 64, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/flask/templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+[2023-09-20 13:25:56,919] ERROR in app: Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/flask/app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/flask/app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/flask/app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/flask/app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/ubuntu/WORK/cms/server.py", line 22, in index
+    return render_template("index.html")
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/flask/templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/jinja2/environment.py", line 1081, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/flask/templating.py", line 64, in get_source
+    return self._get_source_fast(environment, template)
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/flask/templating.py", line 98, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: index.html
+^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^[[A^C[2023-09-20 13:26:45 +0000] [2767285] [INFO] Handling signal: int
+[2023-09-20 13:26:45 +0000] [2767286] [INFO] Worker exiting (pid: 2767286)
+[2023-09-20 13:26:45 +0000] [2767316] [INFO] Worker exiting (pid: 2767316)
+[2023-09-20 13:26:46 +0000] [2767285] [INFO] Shutting down: Master
+[1m[3m%[23m[1m[0m                                                                                                                                                                                                        k~/WORK/cms\[0m[23m[24m[J(dgm) [01;32m➜  [36mcms[00m [K[?1h=[?2004h[32mgunicorn[39m -w 2 -b 0.0.0.0:9820 server:app[?1l>[?2004l
+kgunicorn\[2023-09-20 13:26:47 +0000] [2768114] [INFO] Starting gunicorn 21.2.0
+[2023-09-20 13:26:47 +0000] [2768114] [INFO] Listening at: http://0.0.0.0:9820 (2768114)
+[2023-09-20 13:26:47 +0000] [2768114] [INFO] Using worker: sync
+[2023-09-20 13:26:47 +0000] [2768115] [INFO] Booting worker with pid: 2768115
+[2023-09-20 13:26:47 +0000] [2768145] [INFO] Booting worker with pid: 2768145
+^C[2023-09-20 13:27:48 +0000] [2768114] [INFO] Handling signal: int
+[2023-09-20 13:27:48 +0000] [2768115] [INFO] Worker exiting (pid: 2768115)
+[2023-09-20 13:27:48 +0000] [2768145] [INFO] Worker exiting (pid: 2768145)
+^[[A[2023-09-20 13:27:48 +0000] [2768114] [INFO] Shutting down: Master
+[1m[3m%[23m[1m[0m                                                                                                                                                                                                        k~/WORK/cms\[0m[23m[24m[J(dgm) [01;32m➜  [36mcms[00m [K[?1h=[?2004h[32mgunicorn[39m -w 2 -b 0.0.0.0:9820 server:app[?1l>[?2004l
+kgunicorn\[2023-09-20 13:27:49 +0000] [2768563] [INFO] Starting gunicorn 21.2.0
+[2023-09-20 13:27:49 +0000] [2768563] [INFO] Listening at: http://0.0.0.0:9820 (2768563)
+[2023-09-20 13:27:49 +0000] [2768563] [INFO] Using worker: sync
+[2023-09-20 13:27:49 +0000] [2768564] [INFO] Booting worker with pid: 2768564
+[2023-09-20 13:27:49 +0000] [2768594] [INFO] Booting worker with pid: 2768594
+^C[2023-09-20 13:34:09 +0000] [2768563] [INFO] Handling signal: int
+[2023-09-20 13:34:10 +0000] [2768594] [INFO] Worker exiting (pid: 2768594)
+[2023-09-20 13:34:10 +0000] [2768564] [INFO] Worker exiting (pid: 2768564)
+[2023-09-20 13:34:10 +0000] [2768563] [INFO] Shutting down: Master
+[1m[3m%[23m[1m[0m                                                                                                                                                                                                        k~/WORK/cms\[0m[23m[24m[J(dgm) [01;32m➜  [36mcms[00m [K[?1h=[?2004h[32mgunicorn[39m -w 2 -b 0.0.0.0:9820 server:app[?1l>[?2004l
+kgunicorn\[2023-09-20 13:34:11 +0000] [2769864] [INFO] Starting gunicorn 21.2.0
+[2023-09-20 13:34:11 +0000] [2769864] [INFO] Listening at: http://0.0.0.0:9820 (2769864)
+[2023-09-20 13:34:11 +0000] [2769864] [INFO] Using worker: sync
+[2023-09-20 13:34:11 +0000] [2769865] [INFO] Booting worker with pid: 2769865
+[2023-09-20 13:34:11 +0000] [2769895] [INFO] Booting worker with pid: 2769895
+^C[2023-09-20 13:41:19 +0000] [2769864] [INFO] Handling signal: int
+[2023-09-20 13:41:19 +0000] [2769895] [INFO] Worker exiting (pid: 2769895)
+[2023-09-20 13:41:19 +0000] [2769865] [INFO] Worker exiting (pid: 2769865)
+[2023-09-20 13:41:20 +0000] [2769864] [INFO] Shutting down: Master
+[1m[3m%[23m[1m[0m                                                                                                                                                                                                        k~/WORK/cms\[0m[23m[24m[J(dgm) [01;32m➜  [36mcms[00m [K[?1h=[?2004h[?2004l
+[1m[3m%[23m[1m[0m                                                                                                                                                                                                        k~/WORK/cms\[0m[23m[24m[J(dgm) [01;31m➜  [36mcms[00m [K[?1h=[?2004h[?2004l
+[1m[3m%[23m[1m[0m                                                                                                                                                                                                        k~/WORK/cms\[0m[23m[24m[J(dgm) [01;31m➜  [36mcms[00m [K[?1h=[?2004h[?2004l
+[1m[3m%[23m[1m[0m                                                                                                                                                                                                        k~/WORK/cms\[0m[23m[24m[J(dgm) [01;31m➜  [36mcms[00m [K[?1h=[?2004h[32mgunicorn[39m -w 2 -b 0.0.0.0:9820 server:app[?1l>[?2004l
+kgunicorn\[2023-09-20 13:41:22 +0000] [2771178] [INFO] Starting gunicorn 21.2.0
+[2023-09-20 13:41:22 +0000] [2771178] [INFO] Listening at: http://0.0.0.0:9820 (2771178)
+[2023-09-20 13:41:22 +0000] [2771178] [INFO] Using worker: sync
+[2023-09-20 13:41:22 +0000] [2771179] [INFO] Booting worker with pid: 2771179
+[2023-09-20 13:41:22 +0000] [2771209] [INFO] Booting worker with pid: 2771209
+^C[2023-09-20 13:42:21 +0000] [2771178] [INFO] Handling signal: int
+[2023-09-20 13:42:21 +0000] [2771209] [INFO] Worker exiting (pid: 2771209)
+[2023-09-20 13:42:21 +0000] [2771179] [INFO] Worker exiting (pid: 2771179)
+[2023-09-20 13:42:21 +0000] [2771178] [INFO] Shutting down: Master
+[1m[3m%[23m[1m[0m                                                                                                                                                                                                        k~/WORK/cms\[0m[23m[24m[J(dgm) [01;32m➜  [36mcms[00m [K[?1h=[?2004h[32mgunicorn[39m -w 2 -b 0.0.0.0:9820 server:app[?1l>[?2004l
+kgunicorn\[2023-09-20 13:42:22 +0000] [2771619] [INFO] Starting gunicorn 21.2.0
+[2023-09-20 13:42:22 +0000] [2771619] [INFO] Listening at: http://0.0.0.0:9820 (2771619)
+[2023-09-20 13:42:22 +0000] [2771619] [INFO] Using worker: sync
+[2023-09-20 13:42:22 +0000] [2771620] [INFO] Booting worker with pid: 2771620
+[2023-09-20 13:42:22 +0000] [2771650] [INFO] Booting worker with pid: 2771650
+[{'name': 'Market', 'explanation_vietnamese': 'Chợ'}, {'name': 'Badminton', 'explanation_vietnamese': 'Cầu lông - Cơ sở được thiết kế đặc biệt để chơi cầu lông'}, {'name': 'Drugstore', 'explanation_vietnamese': 'Hiệu thuốc - (hiện không dùng Cate này nữa)'}, {'name': 'Billiards-Pool Hall', 'explanation_vietnamese': 'Tiệm Bida, Billiards'}, {'name': "Men's Apparel", 'explanation_vietnamese': 'Trang phục nam - Kinh doanh trang phục và phụ kiện cho nam.'}, {'name': 'Guest House', 'explanation_vietnamese': 'Nhà nghỉ'}, {'name': 'Running Track', 'explanation_vietnamese': 'Đường chạy - Đặc điểm chung: Bề mặt nhân tạo (Thường bọc cao su), được thiết kế với chiều dài và rộng đặc trưng.'}, {'name': 'Toy Store', 'explanation_vietnamese': 'Cửa hàng đồ chơi - Tự làm hoặc buôn bán đồ chơi.'}, {'name': 'Gallery', 'explanation_vietnamese': 'Phòng trưng bày - Địa điểm thu hút về loại hình nghệ thuật'}, {'name': "Women's Apparel", 'explanation_vietnamese': 'Trang phục nữ - Kinh doanh trang phục và phụ kiện cho nữ.'}]
+[{'name': 'Market', 'explanation_vietnamese': 'Chợ'}, {'name': 'Badminton', 'explanation_vietnamese': 'Cầu lông - Cơ sở được thiết kế đặc biệt để chơi cầu lông'}, {'name': 'Drugstore', 'explanation_vietnamese': 'Hiệu thuốc - (hiện không dùng Cate này nữa)'}, {'name': 'Billiards-Pool Hall', 'explanation_vietnamese': 'Tiệm Bida, Billiards'}, {'name': "Men's Apparel", 'explanation_vietnamese': 'Trang phục nam - Kinh doanh trang phục và phụ kiện cho nam.'}, {'name': 'Guest House', 'explanation_vietnamese': 'Nhà nghỉ'}, {'name': 'Running Track', 'explanation_vietnamese': 'Đường chạy - Đặc điểm chung: Bề mặt nhân tạo (Thường bọc cao su), được thiết kế với chiều dài và rộng đặc trưng.'}, {'name': 'Toy Store', 'explanation_vietnamese': 'Cửa hàng đồ chơi - Tự làm hoặc buôn bán đồ chơi.'}, {'name': 'Gallery', 'explanation_vietnamese': 'Phòng trưng bày - Địa điểm thu hút về loại hình nghệ thuật'}, {'name': "Women's Apparel", 'explanation_vietnamese': 'Trang phục nữ - Kinh doanh trang phục và phụ kiện cho nữ.'}]
+[{'name': 'Market', 'explanation_vietnamese': 'Chợ'}, {'name': 'Badminton', 'explanation_vietnamese': 'Cầu lông - Cơ sở được thiết kế đặc biệt để chơi cầu lông'}, {'name': 'Drugstore', 'explanation_vietnamese': 'Hiệu thuốc - (hiện không dùng Cate này nữa)'}, {'name': 'Billiards-Pool Hall', 'explanation_vietnamese': 'Tiệm Bida, Billiards'}, {'name': "Men's Apparel", 'explanation_vietnamese': 'Trang phục nam - Kinh doanh trang phục và phụ kiện cho nam.'}, {'name': 'Guest House', 'explanation_vietnamese': 'Nhà nghỉ'}, {'name': 'Running Track', 'explanation_vietnamese': 'Đường chạy - Đặc điểm chung: Bề mặt nhân tạo (Thường bọc cao su), được thiết kế với chiều dài và rộng đặc trưng.'}, {'name': 'Toy Store', 'explanation_vietnamese': 'Cửa hàng đồ chơi - Tự làm hoặc buôn bán đồ chơi.'}, {'name': 'Gallery', 'explanation_vietnamese': 'Phòng trưng bày - Địa điểm thu hút về loại hình nghệ thuật'}, {'name': "Women's Apparel", 'explanation_vietnamese': 'Trang phục nữ - Kinh doanh trang phục và phụ kiện cho nữ.'}]
+[{'name': 'Market', 'explanation_vietnamese': 'Chợ'}, {'name': 'Badminton', 'explanation_vietnamese': 'Cầu lông - Cơ sở được thiết kế đặc biệt để chơi cầu lông'}, {'name': 'Drugstore', 'explanation_vietnamese': 'Hiệu thuốc - (hiện không dùng Cate này nữa)'}, {'name': 'Billiards-Pool Hall', 'explanation_vietnamese': 'Tiệm Bida, Billiards'}, {'name': "Men's Apparel", 'explanation_vietnamese': 'Trang phục nam - Kinh doanh trang phục và phụ kiện cho nam.'}, {'name': 'Guest House', 'explanation_vietnamese': 'Nhà nghỉ'}, {'name': 'Running Track', 'explanation_vietnamese': 'Đường chạy - Đặc điểm chung: Bề mặt nhân tạo (Thường bọc cao su), được thiết kế với chiều dài và rộng đặc trưng.'}, {'name': 'Toy Store', 'explanation_vietnamese': 'Cửa hàng đồ chơi - Tự làm hoặc buôn bán đồ chơi.'}, {'name': 'Gallery', 'explanation_vietnamese': 'Phòng trưng bày - Địa điểm thu hút về loại hình nghệ thuật'}, {'name': "Women's Apparel", 'explanation_vietnamese': 'Trang phục nữ - Kinh doanh trang phục và phụ kiện cho nữ.'}]
+^C[2023-09-20 13:44:10 +0000] [2771619] [INFO] Handling signal: int
+[2023-09-20 13:44:10 +0000] [2771650] [INFO] Worker exiting (pid: 2771650)
+[2023-09-20 13:44:10 +0000] [2771620] [INFO] Worker exiting (pid: 2771620)
+[2023-09-20 13:44:11 +0000] [2771619] [INFO] Shutting down: Master
+[1m[3m%[23m[1m[0m                                                                                                                                                                                                        k~/WORK/cms\[0m[23m[24m[J(dgm) [01;32m➜  [36mcms[00m [K[?1h=[?2004h[?2004l
+[1m[3m%[23m[1m[0m                                                                                                                                                                                                        k~/WORK/cms\[0m[23m[24m[J(dgm) [01;31m➜  [36mcms[00m [K[?1h=[?2004h[32mgunicorn[39m -w 2 -b 0.0.0.0:9820 server:app[?1l>[?2004l
+kgunicorn\[2023-09-20 13:44:12 +0000] [2772189] [INFO] Starting gunicorn 21.2.0
+[2023-09-20 13:44:12 +0000] [2772189] [INFO] Listening at: http://0.0.0.0:9820 (2772189)
+[2023-09-20 13:44:12 +0000] [2772189] [INFO] Using worker: sync
+[2023-09-20 13:44:12 +0000] [2772190] [INFO] Booting worker with pid: 2772190
+[2023-09-20 13:44:12 +0000] [2772201] [INFO] Booting worker with pid: 2772201
+[{'name': 'Market', 'explanation_vietnamese': 'Chợ'}, {'name': 'Badminton', 'explanation_vietnamese': 'Cầu lông - Cơ sở được thiết kế đặc biệt để chơi cầu lông'}, {'name': 'Drugstore', 'explanation_vietnamese': 'Hiệu thuốc - (hiện không dùng Cate này nữa)'}, {'name': 'Billiards-Pool Hall', 'explanation_vietnamese': 'Tiệm Bida, Billiards'}, {'name': "Men's Apparel", 'explanation_vietnamese': 'Trang phục nam - Kinh doanh trang phục và phụ kiện cho nam.'}, {'name': 'Guest House', 'explanation_vietnamese': 'Nhà nghỉ'}, {'name': 'Running Track', 'explanation_vietnamese': 'Đường chạy - Đặc điểm chung: Bề mặt nhân tạo (Thường bọc cao su), được thiết kế với chiều dài và rộng đặc trưng.'}, {'name': 'Toy Store', 'explanation_vietnamese': 'Cửa hàng đồ chơi - Tự làm hoặc buôn bán đồ chơi.'}, {'name': 'Gallery', 'explanation_vietnamese': 'Phòng trưng bày - Địa điểm thu hút về loại hình nghệ thuật'}, {'name': "Women's Apparel", 'explanation_vietnamese': 'Trang phục nữ - Kinh doanh trang phục và phụ kiện cho nữ.'}]
+[{'name': 'Market', 'explanation_vietnamese': 'Chợ'}, {'name': 'Badminton', 'explanation_vietnamese': 'Cầu lông - Cơ sở được thiết kế đặc biệt để chơi cầu lông'}, {'name': 'Drugstore', 'explanation_vietnamese': 'Hiệu thuốc - (hiện không dùng Cate này nữa)'}, {'name': 'Billiards-Pool Hall', 'explanation_vietnamese': 'Tiệm Bida, Billiards'}, {'name': "Men's Apparel", 'explanation_vietnamese': 'Trang phục nam - Kinh doanh trang phục và phụ kiện cho nam.'}, {'name': 'Guest House', 'explanation_vietnamese': 'Nhà nghỉ'}, {'name': 'Running Track', 'explanation_vietnamese': 'Đường chạy - Đặc điểm chung: Bề mặt nhân tạo (Thường bọc cao su), được thiết kế với chiều dài và rộng đặc trưng.'}, {'name': 'Toy Store', 'explanation_vietnamese': 'Cửa hàng đồ chơi - Tự làm hoặc buôn bán đồ chơi.'}, {'name': 'Gallery', 'explanation_vietnamese': 'Phòng trưng bày - Địa điểm thu hút về loại hình nghệ thuật'}, {'name': "Women's Apparel", 'explanation_vietnamese': 'Trang phục nữ - Kinh doanh trang phục và phụ kiện cho nữ.'}]
+[{'name': 'Guest House', 'explanation_vietnamese': 'Nhà nghỉ'}, {'name': 'Hotel', 'explanation_vietnamese': 'Khách sạn'}, {'name': 'Coffee Shop', 'explanation_vietnamese': 'Quán cà phê, Coffee… hoặc quán nước bất kỳ có bàn ghế ngồi lại, phục vụ các loại nước chung chung bao gồm cà phê.'}, {'name': 'Karaoke', 'explanation_vietnamese': 'Karaoke'}, {'name': 'Night Club', 'explanation_vietnamese': 'Hộp Đêm, Vũ Trường, Pub, Lounge nơi có đánh nhạc.'}, {'name': 'Market', 'explanation_vietnamese': 'Chợ'}, {'name': 'Church', 'explanation_vietnamese': 'Nhà Thờ, giáo đường -  Nơi thờ phượng chúa.'}, {'name': 'Ferry Terminal', 'explanation_vietnamese': 'Hải cảng, bến tàu'}, {'name': 'Billiards-Pool Hall', 'explanation_vietnamese': 'Tiệm Bida, Billiards'}, {'name': 'Restaurant', 'explanation_vietnamese': 'Nhà hàng, quán ăn, tiệm ăn có bàn ghế lịch sự, (Vd: quán mì, quán phở, tiệm cơm..) . Nhớ chọn thêm Sub-Cate\n** Bạn chọn trực tiếp bên SUB-Cate (giúp mình nhé)'}]
+[{'name': 'Guest House', 'explanation_vietnamese': 'Nhà nghỉ'}, {'name': 'Hotel', 'explanation_vietnamese': 'Khách sạn'}, {'name': 'Coffee Shop', 'explanation_vietnamese': 'Quán cà phê, Coffee… hoặc quán nước bất kỳ có bàn ghế ngồi lại, phục vụ các loại nước chung chung bao gồm cà phê.'}, {'name': 'Karaoke', 'explanation_vietnamese': 'Karaoke'}, {'name': 'Night Club', 'explanation_vietnamese': 'Hộp Đêm, Vũ Trường, Pub, Lounge nơi có đánh nhạc.'}, {'name': 'Market', 'explanation_vietnamese': 'Chợ'}, {'name': 'Church', 'explanation_vietnamese': 'Nhà Thờ, giáo đường -  Nơi thờ phượng chúa.'}, {'name': 'Ferry Terminal', 'explanation_vietnamese': 'Hải cảng, bến tàu'}, {'name': 'Billiards-Pool Hall', 'explanation_vietnamese': 'Tiệm Bida, Billiards'}, {'name': 'Restaurant', 'explanation_vietnamese': 'Nhà hàng, quán ăn, tiệm ăn có bàn ghế lịch sự, (Vd: quán mì, quán phở, tiệm cơm..) . Nhớ chọn thêm Sub-Cate\n** Bạn chọn trực tiếp bên SUB-Cate (giúp mình nhé)'}]
+[{'name': 'Guest House', 'explanation_vietnamese': 'Nhà nghỉ'}, {'name': 'Hotel', 'explanation_vietnamese': 'Khách sạn'}, {'name': 'Coffee Shop', 'explanation_vietnamese': 'Quán cà phê, Coffee… hoặc quán nước bất kỳ có bàn ghế ngồi lại, phục vụ các loại nước chung chung bao gồm cà phê.'}, {'name': 'Karaoke', 'explanation_vietnamese': 'Karaoke'}, {'name': 'Night Club', 'explanation_vietnamese': 'Hộp Đêm, Vũ Trường, Pub, Lounge nơi có đánh nhạc.'}, {'name': 'Market', 'explanation_vietnamese': 'Chợ'}, {'name': 'Church', 'explanation_vietnamese': 'Nhà Thờ, giáo đường -  Nơi thờ phượng chúa.'}, {'name': 'Ferry Terminal', 'explanation_vietnamese': 'Hải cảng, bến tàu'}, {'name': 'Billiards-Pool Hall', 'explanation_vietnamese': 'Tiệm Bida, Billiards'}, {'name': 'Restaurant', 'explanation_vietnamese': 'Nhà hàng, quán ăn, tiệm ăn có bàn ghế lịch sự, (Vd: quán mì, quán phở, tiệm cơm..) . Nhớ chọn thêm Sub-Cate\n** Bạn chọn trực tiếp bên SUB-Cate (giúp mình nhé)'}]
+[{'name': 'Guest House', 'explanation_vietnamese': 'Nhà nghỉ'}, {'name': 'Hotel', 'explanation_vietnamese': 'Khách sạn'}, {'name': 'Coffee Shop', 'explanation_vietnamese': 'Quán cà phê, Coffee… hoặc quán nước bất kỳ có bàn ghế ngồi lại, phục vụ các loại nước chung chung bao gồm cà phê.'}, {'name': 'Karaoke', 'explanation_vietnamese': 'Karaoke'}, {'name': 'Night Club', 'explanation_vietnamese': 'Hộp Đêm, Vũ Trường, Pub, Lounge nơi có đánh nhạc.'}, {'name': 'Market', 'explanation_vietnamese': 'Chợ'}, {'name': 'Church', 'explanation_vietnamese': 'Nhà Thờ, giáo đường -  Nơi thờ phượng chúa.'}, {'name': 'Ferry Terminal', 'explanation_vietnamese': 'Hải cảng, bến tàu'}, {'name': 'Billiards-Pool Hall', 'explanation_vietnamese': 'Tiệm Bida, Billiards'}, {'name': 'Restaurant', 'explanation_vietnamese': 'Nhà hàng, quán ăn, tiệm ăn có bàn ghế lịch sự, (Vd: quán mì, quán phở, tiệm cơm..) . Nhớ chọn thêm Sub-Cate\n** Bạn chọn trực tiếp bên SUB-Cate (giúp mình nhé)'}]
+^[[A^[[A^[[A^[[A^C[2023-09-20 13:45:11 +0000] [2772189] [INFO] Handling signal: int
+[2023-09-20 13:45:11 +0000] [2772190] [INFO] Worker exiting (pid: 2772190)
+[2023-09-20 13:45:11 +0000] [2772201] [INFO] Worker exiting (pid: 2772201)
+^C[2023-09-20 13:45:11 +0000] [2772189] [ERROR] Worker (pid:2772201) was sent SIGINT!
+[2023-09-20 13:45:11 +0000] [2772189] [ERROR] Worker (pid:2772190) was sent SIGINT!
+[2023-09-20 13:45:11 +0000] [2772189] [INFO] Shutting down: Master
+[1m[3m%[23m[1m[0m                                                                                                                                                                                                        k~/WORK/cms\[0m[23m[24m[J(dgm) [01;32m➜  [36mcms[00m [K[?1h=[?2004hgunicorn -w 2 -b 0.0.0.0:9820 server:app[40D[32ms[32mc[32mr[32me[32me[32mn[39m -r bb                            [28D[12D[39mg[39mu[39mn[39mi[39mc[39morn -w 2 -b 0.0.0.0:9820 server:app[40Dconda activate dgm                      [22D[18Dscreen -r bb      dmS bb -L[17Dgunicorn -w 2 -b 0.0.0.0:9820 server:appserver[43D[32mg[32mu[32mn[32mi[32mc[32mo[32mr[32mn[39m[4C4[30C[43D[39mp[39mi[39mp[39m [39mi[39mn[39ms[39mtall gunicorn                       
+[KM[33C[1B[KM[33C[20Dpython server.py    [1B[KM[29C[16Dpip install flask[1B[KM[30C[1B[KM[30C[17Dpython server.py [1B[KM[29C[16Dpip install pandasblack -U sentence-transformers[36Dconda activate dgm                  [18D[18D[32mc[32mo[32mn[32md[32ma[39m[6Ce dgm  [16D[39mc[39mo[39mn[39md[39ma creat[2C--name dgm python=3.9[34D[32mm[32mk[32md[32mi[32mr[39m[2Cms                         [25D[0m[23m[24m[J(dgm) [01;32m➜  [36mcms[00m [32mmkdir[39m cms s  ms   cms~/uthus-data[?2004l
+[1m[3m%[23m[1m[0m                                                                                                                                                                                                        k~/WORK/cms\[0m[23m[24m[J(dgm) [01;31m➜  [36mcms[00m [K[?1h=[?2004h[?2004l
+[1m[3m%[23m[1m[0m                                                                                                                                                                                                        k~/WORK/cms\[0m[23m[24m[J(dgm) [01;31m➜  [36mcms[00m [K[?1h=[?2004h[32mgunicorn[39m -w 2 -b 0.0.0.0:9820 server:app[?1l>[?2004l
+kgunicorn\[2023-09-20 13:45:43 +0000] [2772827] [INFO] Starting gunicorn 21.2.0
+[2023-09-20 13:45:43 +0000] [2772827] [INFO] Listening at: http://0.0.0.0:9820 (2772827)
+[2023-09-20 13:45:43 +0000] [2772827] [INFO] Using worker: sync
+[2023-09-20 13:45:43 +0000] [2772828] [INFO] Booting worker with pid: 2772828
+[2023-09-20 13:45:43 +0000] [2772858] [INFO] Booting worker with pid: 2772858
+[{'name': 'Guest House', 'explanation_vietnamese': 'Nhà nghỉ'}, {'name': 'Hotel', 'explanation_vietnamese': 'Khách sạn'}, {'name': 'Coffee Shop', 'explanation_vietnamese': 'Quán cà phê, Coffee… hoặc quán nước bất kỳ có bàn ghế ngồi lại, phục vụ các loại nước chung chung bao gồm cà phê.'}, {'name': 'Karaoke', 'explanation_vietnamese': 'Karaoke'}, {'name': 'Night Club', 'explanation_vietnamese': 'Hộp Đêm, Vũ Trường, Pub, Lounge nơi có đánh nhạc.'}, {'name': 'Market', 'explanation_vietnamese': 'Chợ'}, {'name': 'Church', 'explanation_vietnamese': 'Nhà Thờ, giáo đường -  Nơi thờ phượng chúa.'}, {'name': 'Ferry Terminal', 'explanation_vietnamese': 'Hải cảng, bến tàu'}, {'name': 'Billiards-Pool Hall', 'explanation_vietnamese': 'Tiệm Bida, Billiards'}, {'name': 'Restaurant', 'explanation_vietnamese': 'Nhà hàng, quán ăn, tiệm ăn có bàn ghế lịch sự, (Vd: quán mì, quán phở, tiệm cơm..) . Nhớ chọn thêm Sub-Cate\n** Bạn chọn trực tiếp bên SUB-Cate (giúp mình nhé)'}]
+[{'name': 'Guest House', 'explanation_vietnamese': 'Nhà nghỉ'}, {'name': 'Hotel', 'explanation_vietnamese': 'Khách sạn'}, {'name': 'Coffee Shop', 'explanation_vietnamese': 'Quán cà phê, Coffee… hoặc quán nước bất kỳ có bàn ghế ngồi lại, phục vụ các loại nước chung chung bao gồm cà phê.'}, {'name': 'Karaoke', 'explanation_vietnamese': 'Karaoke'}, {'name': 'Night Club', 'explanation_vietnamese': 'Hộp Đêm, Vũ Trường, Pub, Lounge nơi có đánh nhạc.'}, {'name': 'Market', 'explanation_vietnamese': 'Chợ'}, {'name': 'Church', 'explanation_vietnamese': 'Nhà Thờ, giáo đường -  Nơi thờ phượng chúa.'}, {'name': 'Ferry Terminal', 'explanation_vietnamese': 'Hải cảng, bến tàu'}, {'name': 'Billiards-Pool Hall', 'explanation_vietnamese': 'Tiệm Bida, Billiards'}, {'name': 'Restaurant', 'explanation_vietnamese': 'Nhà hàng, quán ăn, tiệm ăn có bàn ghế lịch sự, (Vd: quán mì, quán phở, tiệm cơm..) . Nhớ chọn thêm Sub-Cate\n** Bạn chọn trực tiếp bên SUB-Cate (giúp mình nhé)'}]
+^C[2023-09-20 13:48:12 +0000] [2772827] [INFO] Handling signal: int
+[2023-09-20 13:48:12 +0000] [2772828] [INFO] Worker exiting (pid: 2772828)
+[2023-09-20 13:48:12 +0000] [2772858] [INFO] Worker exiting (pid: 2772858)
+^C[2023-09-20 13:48:12 +0000] [2772827] [ERROR] Worker (pid:2772858) was sent SIGINT!
+[2023-09-20 13:48:12 +0000] [2772827] [ERROR] Worker (pid:2772828) was sent SIGINT!
+[2023-09-20 13:48:12 +0000] [2772827] [INFO] Shutting down: Master
+[1m[3m%[23m[1m[0m                                                                                                                                                                                                        k~/WORK/cms\[0m[23m[24m[J(dgm) [01;32m➜  [36mcms[00m [K[?1h=[?2004h[?2004l
+[1m[3m%[23m[1m[0m                                                                                                                                                                                                        k~/WORK/cms\[0m[23m[24m[J(dgm) [01;31m➜  [36mcms[00m [K[?1h=[?2004h[?2004l
+[1m[3m%[23m[1m[0m                                                                                                                                                                                                        k~/WORK/cms\[0m[23m[24m[J(dgm) [01;31m➜  [36mcms[00m [K[?1h=[?2004h[32mgunicorn[39m -w 2 -b 0.0.0.0:9820 server:app[?1l>[?2004l
+kgunicorn\[2023-09-20 13:48:13 +0000] [2773465] [INFO] Starting gunicorn 21.2.0
+[2023-09-20 13:48:13 +0000] [2773465] [INFO] Listening at: http://0.0.0.0:9820 (2773465)
+[2023-09-20 13:48:13 +0000] [2773465] [INFO] Using worker: sync
+[2023-09-20 13:48:13 +0000] [2773470] [INFO] Booting worker with pid: 2773470
+[2023-09-20 13:48:13 +0000] [2773509] [INFO] Booting worker with pid: 2773509
+[{'name': 'Guest House', 'explanation_vietnamese': 'Nhà nghỉ'}, {'name': 'Hotel', 'explanation_vietnamese': 'Khách sạn'}, {'name': 'Coffee Shop', 'explanation_vietnamese': 'Quán cà phê, Coffee… hoặc quán nước bất kỳ có bàn ghế ngồi lại, phục vụ các loại nước chung chung bao gồm cà phê.'}, {'name': 'Karaoke', 'explanation_vietnamese': 'Karaoke'}, {'name': 'Night Club', 'explanation_vietnamese': 'Hộp Đêm, Vũ Trường, Pub, Lounge nơi có đánh nhạc.'}, {'name': 'Market', 'explanation_vietnamese': 'Chợ'}, {'name': 'Church', 'explanation_vietnamese': 'Nhà Thờ, giáo đường -  Nơi thờ phượng chúa.'}, {'name': 'Ferry Terminal', 'explanation_vietnamese': 'Hải cảng, bến tàu'}, {'name': 'Billiards-Pool Hall', 'explanation_vietnamese': 'Tiệm Bida, Billiards'}, {'name': 'Restaurant', 'explanation_vietnamese': 'Nhà hàng, quán ăn, tiệm ăn có bàn ghế lịch sự, (Vd: quán mì, quán phở, tiệm cơm..) . Nhớ chọn thêm Sub-Cate\n** Bạn chọn trực tiếp bên SUB-Cate (giúp mình nhé)'}]
+[{'name': 'Guest House', 'explanation_vietnamese': 'Nhà nghỉ'}, {'name': 'Hotel', 'explanation_vietnamese': 'Khách sạn'}, {'name': 'Coffee Shop', 'explanation_vietnamese': 'Quán cà phê, Coffee… hoặc quán nước bất kỳ có bàn ghế ngồi lại, phục vụ các loại nước chung chung bao gồm cà phê.'}, {'name': 'Karaoke', 'explanation_vietnamese': 'Karaoke'}, {'name': 'Night Club', 'explanation_vietnamese': 'Hộp Đêm, Vũ Trường, Pub, Lounge nơi có đánh nhạc.'}, {'name': 'Market', 'explanation_vietnamese': 'Chợ'}, {'name': 'Church', 'explanation_vietnamese': 'Nhà Thờ, giáo đường -  Nơi thờ phượng chúa.'}, {'name': 'Ferry Terminal', 'explanation_vietnamese': 'Hải cảng, bến tàu'}, {'name': 'Billiards-Pool Hall', 'explanation_vietnamese': 'Tiệm Bida, Billiards'}, {'name': 'Restaurant', 'explanation_vietnamese': 'Nhà hàng, quán ăn, tiệm ăn có bàn ghế lịch sự, (Vd: quán mì, quán phở, tiệm cơm..) . Nhớ chọn thêm Sub-Cate\n** Bạn chọn trực tiếp bên SUB-Cate (giúp mình nhé)'}]
+[{'name': 'Guest House', 'explanation_vietnamese': 'Nhà nghỉ'}, {'name': 'Hotel', 'explanation_vietnamese': 'Khách sạn'}, {'name': 'Coffee Shop', 'explanation_vietnamese': 'Quán cà phê, Coffee… hoặc quán nước bất kỳ có bàn ghế ngồi lại, phục vụ các loại nước chung chung bao gồm cà phê.'}, {'name': 'Karaoke', 'explanation_vietnamese': 'Karaoke'}, {'name': 'Night Club', 'explanation_vietnamese': 'Hộp Đêm, Vũ Trường, Pub, Lounge nơi có đánh nhạc.'}, {'name': 'Market', 'explanation_vietnamese': 'Chợ'}, {'name': 'Church', 'explanation_vietnamese': 'Nhà Thờ, giáo đường -  Nơi thờ phượng chúa.'}, {'name': 'Ferry Terminal', 'explanation_vietnamese': 'Hải cảng, bến tàu'}, {'name': 'Billiards-Pool Hall', 'explanation_vietnamese': 'Tiệm Bida, Billiards'}, {'name': 'Restaurant', 'explanation_vietnamese': 'Nhà hàng, quán ăn, tiệm ăn có bàn ghế lịch sự, (Vd: quán mì, quán phở, tiệm cơm..) . Nhớ chọn thêm Sub-Cate\n** Bạn chọn trực tiếp bên SUB-Cate (giúp mình nhé)'}]
+[{'name': 'Guest House', 'explanation_vietnamese': 'Nhà nghỉ'}, {'name': 'Hotel', 'explanation_vietnamese': 'Khách sạn'}, {'name': 'Coffee Shop', 'explanation_vietnamese': 'Quán cà phê, Coffee… hoặc quán nước bất kỳ có bàn ghế ngồi lại, phục vụ các loại nước chung chung bao gồm cà phê.'}, {'name': 'Karaoke', 'explanation_vietnamese': 'Karaoke'}, {'name': 'Night Club', 'explanation_vietnamese': 'Hộp Đêm, Vũ Trường, Pub, Lounge nơi có đánh nhạc.'}, {'name': 'Market', 'explanation_vietnamese': 'Chợ'}, {'name': 'Church', 'explanation_vietnamese': 'Nhà Thờ, giáo đường -  Nơi thờ phượng chúa.'}, {'name': 'Ferry Terminal', 'explanation_vietnamese': 'Hải cảng, bến tàu'}, {'name': 'Billiards-Pool Hall', 'explanation_vietnamese': 'Tiệm Bida, Billiards'}, {'name': 'Restaurant', 'explanation_vietnamese': 'Nhà hàng, quán ăn, tiệm ăn có bàn ghế lịch sự, (Vd: quán mì, quán phở, tiệm cơm..) . Nhớ chọn thêm Sub-Cate\n** Bạn chọn trực tiếp bên SUB-Cate (giúp mình nhé)'}]
+[{'name': 'Karaoke', 'explanation_vietnamese': 'Karaoke'}, {'name': 'Market', 'explanation_vietnamese': 'Chợ'}, {'name': 'Hotel', 'explanation_vietnamese': 'Khách sạn'}, {'name': 'Communication-Media', 'explanation_vietnamese': 'Phương tiện truyền thông - Cung cấp dịch vụ truyền thông (ngoại trừ qua liên lạc qua điện thoại). Vd: Đài truyền hình, Đài phát thanh...'}, {'name': 'Sports Facility-Venue', 'explanation_vietnamese': 'Địa điểm tổ chức thể thao - Cơ sở tổ chức cac sự kiện thể thao.'}, {'name': 'Gallery', 'explanation_vietnamese': 'Phòng trưng bày - Địa điểm thu hút về loại hình nghệ thuật'}, {'name': 'Billiards-Pool Hall', 'explanation_vietnamese': 'Tiệm Bida, Billiards'}, {'name': 'Record, CD and Video', 'explanation_vietnamese': 'Tiệm CD, băng đĩa'}, {'name': 'Sports Activities', 'explanation_vietnamese': 'Hoạt động thể thao - Cơ sở hoạc khu vực chơi thể thao giải trí/ nghiệp dư.'}, {'name': 'Cinema', 'explanation_vietnamese': 'Rạp chiếu phim trong nhà/ ngoài trời'}]
+[{'name': 'Karaoke', 'explanation_vietnamese': 'Karaoke'}, {'name': 'Market', 'explanation_vietnamese': 'Chợ'}, {'name': 'Hotel', 'explanation_vietnamese': 'Khách sạn'}, {'name': 'Communication-Media', 'explanation_vietnamese': 'Phương tiện truyền thông - Cung cấp dịch vụ truyền thông (ngoại trừ qua liên lạc qua điện thoại). Vd: Đài truyền hình, Đài phát thanh...'}, {'name': 'Sports Facility-Venue', 'explanation_vietnamese': 'Địa điểm tổ chức thể thao - Cơ sở tổ chức cac sự kiện thể thao.'}, {'name': 'Gallery', 'explanation_vietnamese': 'Phòng trưng bày - Địa điểm thu hút về loại hình nghệ thuật'}, {'name': 'Billiards-Pool Hall', 'explanation_vietnamese': 'Tiệm Bida, Billiards'}, {'name': 'Record, CD and Video', 'explanation_vietnamese': 'Tiệm CD, băng đĩa'}, {'name': 'Sports Activities', 'explanation_vietnamese': 'Hoạt động thể thao - Cơ sở hoạc khu vực chơi thể thao giải trí/ nghiệp dư.'}, {'name': 'Cinema', 'explanation_vietnamese': 'Rạp chiếu phim trong nhà/ ngoài trời'}]
+[{'name': 'Guest House', 'explanation_vietnamese': 'Nhà nghỉ'}, {'name': 'Hotel', 'explanation_vietnamese': 'Khách sạn'}, {'name': 'Coffee Shop', 'explanation_vietnamese': 'Quán cà phê, Coffee… hoặc quán nước bất kỳ có bàn ghế ngồi lại, phục vụ các loại nước chung chung bao gồm cà phê.'}, {'name': 'Karaoke', 'explanation_vietnamese': 'Karaoke'}, {'name': 'Night Club', 'explanation_vietnamese': 'Hộp Đêm, Vũ Trường, Pub, Lounge nơi có đánh nhạc.'}, {'name': 'Market', 'explanation_vietnamese': 'Chợ'}, {'name': 'Church', 'explanation_vietnamese': 'Nhà Thờ, giáo đường -  Nơi thờ phượng chúa.'}, {'name': 'Ferry Terminal', 'explanation_vietnamese': 'Hải cảng, bến tàu'}, {'name': 'Billiards-Pool Hall', 'explanation_vietnamese': 'Tiệm Bida, Billiards'}, {'name': 'Restaurant', 'explanation_vietnamese': 'Nhà hàng, quán ăn, tiệm ăn có bàn ghế lịch sự, (Vd: quán mì, quán phở, tiệm cơm..) . Nhớ chọn thêm Sub-Cate\n** Bạn chọn trực tiếp bên SUB-Cate (giúp mình nhé)'}]
+[{'name': 'Guest House', 'explanation_vietnamese': 'Nhà nghỉ'}, {'name': 'Hotel', 'explanation_vietnamese': 'Khách sạn'}, {'name': 'Coffee Shop', 'explanation_vietnamese': 'Quán cà phê, Coffee… hoặc quán nước bất kỳ có bàn ghế ngồi lại, phục vụ các loại nước chung chung bao gồm cà phê.'}, {'name': 'Karaoke', 'explanation_vietnamese': 'Karaoke'}, {'name': 'Night Club', 'explanation_vietnamese': 'Hộp Đêm, Vũ Trường, Pub, Lounge nơi có đánh nhạc.'}, {'name': 'Market', 'explanation_vietnamese': 'Chợ'}, {'name': 'Church', 'explanation_vietnamese': 'Nhà Thờ, giáo đường -  Nơi thờ phượng chúa.'}, {'name': 'Ferry Terminal', 'explanation_vietnamese': 'Hải cảng, bến tàu'}, {'name': 'Billiards-Pool Hall', 'explanation_vietnamese': 'Tiệm Bida, Billiards'}, {'name': 'Restaurant', 'explanation_vietnamese': 'Nhà hàng, quán ăn, tiệm ăn có bàn ghế lịch sự, (Vd: quán mì, quán phở, tiệm cơm..) . Nhớ chọn thêm Sub-Cate\n** Bạn chọn trực tiếp bên SUB-Cate (giúp mình nhé)'}]
+[{'name': 'Drugstore', 'explanation_vietnamese': 'Hiệu thuốc - (hiện không dùng Cate này nữa)'}, {'name': 'Computer and Software', 'explanation_vietnamese': 'Cửa hàng máy tính: buôn bán chuyên về sản phẩm máy tính bao gồm phần cứng, phần mềm và các phụ kiện liên quan như bao chóng sốc, quạt tản nhiệt, chuột, cục sạc, pin… Vd: Phong Vũ'}, {'name': 'Internet Cafe', 'explanation_vietnamese': 'Dịch vụ cung cấp Internet Công cộng.'}, {'name': 'Vaping Store', 'explanation_vietnamese': 'Cửa hàng vaping - Cửa hàng bán thuốc lá điện tử và phụ kiện vaping khác.'}, {'name': 'Motorcycle Accessories', 'explanation_vietnamese': 'Phụ kiên xe máy- Doanh nghiệp kinh doanh phụ kiện xe máy.'}, {'name': 'Market', 'explanation_vietnamese': 'Chợ'}, {'name': 'Gallery', 'explanation_vietnamese': 'Phòng trưng bày - Địa điểm thu hút về loại hình nghệ thuật'}, {'name': 'Running Track', 'explanation_vietnamese': 'Đường chạy - Đặc điểm chung: Bề mặt nhân tạo (Thường bọc cao su), được thiết kế với chiều dài và rộng đặc trưng.'}, {'name': 'Karaoke', 'explanation_vietnamese': 'Karaoke'}, {'name': 'Motorcycle Dealership', 'explanation_vietnamese': 'Đại lý xe máy - Doanh nghiệp bán xe máy. Lưu ý: danh mục này được bảo vệ và sở hữu riêng của HERE.'}]
+[{'name': 'Drugstore', 'explanation_vietnamese': 'Hiệu thuốc - (hiện không dùng Cate này nữa)'}, {'name': 'Computer and Software', 'explanation_vietnamese': 'Cửa hàng máy tính: buôn bán chuyên về sản phẩm máy tính bao gồm phần cứng, phần mềm và các phụ kiện liên quan như bao chóng sốc, quạt tản nhiệt, chuột, cục sạc, pin… Vd: Phong Vũ'}, {'name': 'Internet Cafe', 'explanation_vietnamese': 'Dịch vụ cung cấp Internet Công cộng.'}, {'name': 'Vaping Store', 'explanation_vietnamese': 'Cửa hàng vaping - Cửa hàng bán thuốc lá điện tử và phụ kiện vaping khác.'}, {'name': 'Motorcycle Accessories', 'explanation_vietnamese': 'Phụ kiên xe máy- Doanh nghiệp kinh doanh phụ kiện xe máy.'}, {'name': 'Market', 'explanation_vietnamese': 'Chợ'}, {'name': 'Gallery', 'explanation_vietnamese': 'Phòng trưng bày - Địa điểm thu hút về loại hình nghệ thuật'}, {'name': 'Running Track', 'explanation_vietnamese': 'Đường chạy - Đặc điểm chung: Bề mặt nhân tạo (Thường bọc cao su), được thiết kế với chiều dài và rộng đặc trưng.'}, {'name': 'Karaoke', 'explanation_vietnamese': 'Karaoke'}, {'name': 'Motorcycle Dealership', 'explanation_vietnamese': 'Đại lý xe máy - Doanh nghiệp bán xe máy. Lưu ý: danh mục này được bảo vệ và sở hữu riêng của HERE.'}]
+[{'name': 'Drugstore', 'explanation_vietnamese': 'Hiệu thuốc - (hiện không dùng Cate này nữa)'}, {'name': 'Computer and Software', 'explanation_vietnamese': 'Cửa hàng máy tính: buôn bán chuyên về sản phẩm máy tính bao gồm phần cứng, phần mềm và các phụ kiện liên quan như bao chóng sốc, quạt tản nhiệt, chuột, cục sạc, pin… Vd: Phong Vũ'}, {'name': 'Internet Cafe', 'explanation_vietnamese': 'Dịch vụ cung cấp Internet Công cộng.'}, {'name': 'Vaping Store', 'explanation_vietnamese': 'Cửa hàng vaping - Cửa hàng bán thuốc lá điện tử và phụ kiện vaping khác.'}, {'name': 'Motorcycle Accessories', 'explanation_vietnamese': 'Phụ kiên xe máy- Doanh nghiệp kinh doanh phụ kiện xe máy.'}, {'name': 'Market', 'explanation_vietnamese': 'Chợ'}, {'name': 'Gallery', 'explanation_vietnamese': 'Phòng trưng bày - Địa điểm thu hút về loại hình nghệ thuật'}, {'name': 'Running Track', 'explanation_vietnamese': 'Đường chạy - Đặc điểm chung: Bề mặt nhân tạo (Thường bọc cao su), được thiết kế với chiều dài và rộng đặc trưng.'}, {'name': 'Karaoke', 'explanation_vietnamese': 'Karaoke'}, {'name': 'Motorcycle Dealership', 'explanation_vietnamese': 'Đại lý xe máy - Doanh nghiệp bán xe máy. Lưu ý: danh mục này được bảo vệ và sở hữu riêng của HERE.'}]
+[{'name': 'Drugstore', 'explanation_vietnamese': 'Hiệu thuốc - (hiện không dùng Cate này nữa)'}, {'name': 'Computer and Software', 'explanation_vietnamese': 'Cửa hàng máy tính: buôn bán chuyên về sản phẩm máy tính bao gồm phần cứng, phần mềm và các phụ kiện liên quan như bao chóng sốc, quạt tản nhiệt, chuột, cục sạc, pin… Vd: Phong Vũ'}, {'name': 'Internet Cafe', 'explanation_vietnamese': 'Dịch vụ cung cấp Internet Công cộng.'}, {'name': 'Vaping Store', 'explanation_vietnamese': 'Cửa hàng vaping - Cửa hàng bán thuốc lá điện tử và phụ kiện vaping khác.'}, {'name': 'Motorcycle Accessories', 'explanation_vietnamese': 'Phụ kiên xe máy- Doanh nghiệp kinh doanh phụ kiện xe máy.'}, {'name': 'Market', 'explanation_vietnamese': 'Chợ'}, {'name': 'Gallery', 'explanation_vietnamese': 'Phòng trưng bày - Địa điểm thu hút về loại hình nghệ thuật'}, {'name': 'Running Track', 'explanation_vietnamese': 'Đường chạy - Đặc điểm chung: Bề mặt nhân tạo (Thường bọc cao su), được thiết kế với chiều dài và rộng đặc trưng.'}, {'name': 'Karaoke', 'explanation_vietnamese': 'Karaoke'}, {'name': 'Motorcycle Dealership', 'explanation_vietnamese': 'Đại lý xe máy - Doanh nghiệp bán xe máy. Lưu ý: danh mục này được bảo vệ và sở hữu riêng của HERE.'}]
+[{'name': 'Internet Cafe', 'explanation_vietnamese': 'Dịch vụ cung cấp Internet Công cộng.'}, {'name': 'Computer and Software', 'explanation_vietnamese': 'Cửa hàng máy tính: buôn bán chuyên về sản phẩm máy tính bao gồm phần cứng, phần mềm và các phụ kiện liên quan như bao chóng sốc, quạt tản nhiệt, chuột, cục sạc, pin… Vd: Phong Vũ'}, {'name': 'Video and Game Rental', 'explanation_vietnamese': 'Cho thuê Video và Game - kinh doanh thuê băng video, DVD, hoặc trò chơi điện tử.'}, {'name': 'Video Arcade-Game Room', 'explanation_vietnamese': 'Tiệm điện tử thẻ'}, {'name': 'Vaping Store', 'explanation_vietnamese': 'Cửa hàng vaping - Cửa hàng bán thuốc lá điện tử và phụ kiện vaping khác.'}, {'name': 'Motorcycle Accessories', 'explanation_vietnamese': 'Phụ kiên xe máy- Doanh nghiệp kinh doanh phụ kiện xe máy.'}, {'name': 'Consumer Electronics Store', 'explanation_vietnamese': 'Cửa hàng điện tử tiêu dùng - Doanh nghiệp bán đồ điện tử và giải trí (điện thoại, TV và hệ thống game.) và cả đồ gia dụng sử dụng điện ( tủ lạnh, quạt, nồi microwave, máy xay sinh tố, máy đánh trứng..)  Vd: Nguyễn Kim, Lock&Lock, …'}, {'name': 'Record, CD and Video', 'explanation_vietnamese': 'Tiệm CD, băng đĩa'}, {'name': 'Drugstore', 'explanation_vietnamese': 'Hiệu thuốc - (hiện không dùng Cate này nữa)'}, {'name': 'Cinema', 'explanation_vietnamese': 'Rạp chiếu phim trong nhà/ ngoài trời'}]
+[{'name': 'Internet Cafe', 'explanation_vietnamese': 'Dịch vụ cung cấp Internet Công cộng.'}, {'name': 'Computer and Software', 'explanation_vietnamese': 'Cửa hàng máy tính: buôn bán chuyên về sản phẩm máy tính bao gồm phần cứng, phần mềm và các phụ kiện liên quan như bao chóng sốc, quạt tản nhiệt, chuột, cục sạc, pin… Vd: Phong Vũ'}, {'name': 'Video and Game Rental', 'explanation_vietnamese': 'Cho thuê Video và Game - kinh doanh thuê băng video, DVD, hoặc trò chơi điện tử.'}, {'name': 'Video Arcade-Game Room', 'explanation_vietnamese': 'Tiệm điện tử thẻ'}, {'name': 'Vaping Store', 'explanation_vietnamese': 'Cửa hàng vaping - Cửa hàng bán thuốc lá điện tử và phụ kiện vaping khác.'}, {'name': 'Motorcycle Accessories', 'explanation_vietnamese': 'Phụ kiên xe máy- Doanh nghiệp kinh doanh phụ kiện xe máy.'}, {'name': 'Consumer Electronics Store', 'explanation_vietnamese': 'Cửa hàng điện tử tiêu dùng - Doanh nghiệp bán đồ điện tử và giải trí (điện thoại, TV và hệ thống game.) và cả đồ gia dụng sử dụng điện ( tủ lạnh, quạt, nồi microwave, máy xay sinh tố, máy đánh trứng..)  Vd: Nguyễn Kim, Lock&Lock, …'}, {'name': 'Record, CD and Video', 'explanation_vietnamese': 'Tiệm CD, băng đĩa'}, {'name': 'Drugstore', 'explanation_vietnamese': 'Hiệu thuốc - (hiện không dùng Cate này nữa)'}, {'name': 'Cinema', 'explanation_vietnamese': 'Rạp chiếu phim trong nhà/ ngoài trời'}]
+^C[2023-09-20 13:51:13 +0000] [2773465] [INFO] Handling signal: int
+[2023-09-20 13:51:13 +0000] [2773509] [INFO] Worker exiting (pid: 2773509)
+[2023-09-20 13:51:13 +0000] [2773470] [INFO] Worker exiting (pid: 2773470)
+[2023-09-20 13:51:14 +0000] [2773465] [INFO] Shutting down: Master
+[1m[3m%[23m[1m[0m                                                                                                                                                                                                        k~/WORK/cms\[0m[23m[24m[J(dgm) [01;32m➜  [36mcms[00m [K[?1h=[?2004h[32mgunicorn[39m -w 2 -b 0.0.0.0:9820 server:app[?1l>[?2004l
+kgunicorn\[2023-09-20 13:51:26 +0000] [2774466] [INFO] Starting gunicorn 21.2.0
+[2023-09-20 13:51:26 +0000] [2774466] [INFO] Listening at: http://0.0.0.0:9820 (2774466)
+[2023-09-20 13:51:26 +0000] [2774466] [INFO] Using worker: sync
+[2023-09-20 13:51:26 +0000] [2774467] [INFO] Booting worker with pid: 2774467
+[2023-09-20 13:51:26 +0000] [2774497] [INFO] Booting worker with pid: 2774497
+^C[2023-09-20 13:52:19 +0000] [2774466] [INFO] Handling signal: int
+[2023-09-20 13:52:19 +0000] [2774467] [INFO] Worker exiting (pid: 2774467)
+[2023-09-20 13:52:19 +0000] [2774497] [INFO] Worker exiting (pid: 2774497)
+^C[2023-09-20 13:52:20 +0000] [2774466] [INFO] Shutting down: Master
+[1m[3m%[23m[1m[0m                                                                                                                                                                                                        k~/WORK/cms\[0m[23m[24m[J(dgm) [01;32m➜  [36mcms[00m [K[?1h=[?2004h[?2004l
+[1m[3m%[23m[1m[0m                                                                                                                                                                                                        k~/WORK/cms\[0m[23m[24m[J(dgm) [01;31m➜  [36mcms[00m [K[?1h=[?2004h[?2004l
+[1m[3m%[23m[1m[0m                                                                                                                                                                                                        k~/WORK/cms\[0m[23m[24m[J(dgm) [01;31m➜  [36mcms[00m [K[?1h=[?2004h[32mgunicorn[39m -w 2 -b 0.0.0.0:9820 server:app[?1l>[?2004l
+kgunicorn\[2023-09-20 13:52:21 +0000] [2774882] [INFO] Starting gunicorn 21.2.0
+[2023-09-20 13:52:21 +0000] [2774882] [INFO] Listening at: http://0.0.0.0:9820 (2774882)
+[2023-09-20 13:52:21 +0000] [2774882] [INFO] Using worker: sync
+[2023-09-20 13:52:21 +0000] [2774883] [INFO] Booting worker with pid: 2774883
+[2023-09-20 13:52:21 +0000] [2774913] [INFO] Booting worker with pid: 2774913
+[2023-09-20 13:53:38 +0000] [2774882] [INFO] Handling signal: winch
+^C[2023-09-20 13:54:29 +0000] [2774882] [INFO] Handling signal: int
+[2023-09-20 13:54:29 +0000] [2774913] [INFO] Worker exiting (pid: 2774913)
+[2023-09-20 13:54:29 +0000] [2774883] [INFO] Worker exiting (pid: 2774883)
+^C[2023-09-20 13:54:30 +0000] [2774882] [ERROR] Worker (pid:2774913) was sent SIGINT!
+[2023-09-20 13:54:30 +0000] [2774882] [ERROR] Worker (pid:2774883) was sent SIGINT!
+[2023-09-20 13:54:30 +0000] [2774882] [INFO] Shutting down: Master
+[1m[3m%[23m[1m[0m                                                                                                                                                                                                        k~/WORK/cms\[0m[23m[24m[J(dgm) [01;32m➜  [36mcms[00m [K[?1h=[?2004h[32mgunicorn[39m -w 2 -b 0.0.0.0:9820 server:app[?1l>[?2004l
+kgunicorn\[2023-09-20 13:54:30 +0000] [2775484] [INFO] Starting gunicorn 21.2.0
+[2023-09-20 13:54:30 +0000] [2775484] [INFO] Listening at: http://0.0.0.0:9820 (2775484)
+[2023-09-20 13:54:30 +0000] [2775484] [INFO] Using worker: sync
+[2023-09-20 13:54:30 +0000] [2775485] [INFO] Booting worker with pid: 2775485
+[2023-09-20 13:54:30 +0000] [2775515] [INFO] Booting worker with pid: 2775515
+^C[2023-09-20 13:55:26 +0000] [2775484] [INFO] Handling signal: int
+[2023-09-20 13:55:26 +0000] [2775485] [INFO] Worker exiting (pid: 2775485)
+[2023-09-20 13:55:26 +0000] [2775515] [INFO] Worker exiting (pid: 2775515)
+^[[A[2023-09-20 13:55:27 +0000] [2775484] [INFO] Shutting down: Master
+[1m[3m%[23m[1m[0m                                                                                                                                                                                                        k~/WORK/cms\[0m[23m[24m[J(dgm) [01;32m➜  [36mcms[00m [K[?1h=[?2004h[32mgunicorn[39m -w 2 -b 0.0.0.0:9820 server:app[?1l>[?2004l
+kgunicorn\[2023-09-20 13:55:28 +0000] [2775897] [INFO] Starting gunicorn 21.2.0
+[2023-09-20 13:55:28 +0000] [2775897] [INFO] Listening at: http://0.0.0.0:9820 (2775897)
+[2023-09-20 13:55:28 +0000] [2775897] [INFO] Using worker: sync
+[2023-09-20 13:55:28 +0000] [2775906] [INFO] Booting worker with pid: 2775906
+[2023-09-20 13:55:28 +0000] [2775936] [INFO] Booting worker with pid: 2775936
+[2023-09-20 14:06:37 +0000] [2775897] [CRITICAL] WORKER TIMEOUT (pid:2775936)
+[2023-09-20 14:06:37 +0000] [2775936] [INFO] Worker exiting (pid: 2775936)
+[2023-09-20 14:06:37 +0000] [2775897] [ERROR] Worker (pid:2775936) exited with code 1
+[2023-09-20 14:06:37 +0000] [2775897] [ERROR] Worker (pid:2775936) exited with code 1.
+[2023-09-20 14:06:37 +0000] [2778009] [INFO] Booting worker with pid: 2778009
+[2023-09-21 17:29:22 +0000] [2775897] [INFO] Handling signal: winch
+^C[2023-09-21 17:29:24 +0000] [2775897] [INFO] Handling signal: int
+[2023-09-21 17:29:24 +0000] [2775906] [INFO] Worker exiting (pid: 2775906)
+[2023-09-21 17:29:24 +0000] [2778009] [INFO] Worker exiting (pid: 2778009)
+[2023-09-21 17:29:24 +0000] [2775897] [INFO] Shutting down: Master
+[1m[3m%[23m[1m[0m                                                                                                                                                                                                                          k~/WORK/cms\[0m[23m[24m[J(dgm) [01;32m➜  [36mcms[00m [K[?1h=[?2004h[32mg[39m[32mg[39municorn -w 2 -b 0.0.0.0:9820 server:app[39D[32mg[32mu[32mn[32mi[32mc[32mo[32mr[32mn[39m[32C[?1l>[?2004l
+kgunicorn\[2023-09-21 17:32:03 +0000] [3059879] [INFO] Starting gunicorn 21.2.0
+[2023-09-21 17:32:03 +0000] [3059879] [INFO] Listening at: http://0.0.0.0:9820 (3059879)
+[2023-09-21 17:32:03 +0000] [3059879] [INFO] Using worker: sync
+[2023-09-21 17:32:03 +0000] [3059880] [INFO] Booting worker with pid: 3059880
+[2023-09-21 17:32:03 +0000] [3059910] [INFO] Booting worker with pid: 3059910
+[2023-09-21 17:32:11 +0000] [3059910] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/arbiter.py", line 609, in spawn_worker
+    worker.init_process()
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/util.py", line 371, in import_app
+    mod = importlib.import_module(module)
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/ubuntu/WORK/cms/server.py", line 12, in <module>
+    passage_embedding = model.encode(df1.tolist())
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/sentence_transformers/SentenceTransformer.py", line 161, in encode
+    features = self.tokenize(sentences_batch)
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/sentence_transformers/SentenceTransformer.py", line 319, in tokenize
+    return self._first_module().tokenize(texts)
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/sentence_transformers/models/Transformer.py", line 102, in tokenize
+    batch1.append(text_tuple[0])
+TypeError: 'float' object is not subscriptable
+[2023-09-21 17:32:11 +0000] [3059910] [INFO] Worker exiting (pid: 3059910)
+[2023-09-21 17:32:12 +0000] [3059880] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/arbiter.py", line 609, in spawn_worker
+    worker.init_process()
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/util.py", line 371, in import_app
+    mod = importlib.import_module(module)
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/ubuntu/WORK/cms/server.py", line 12, in <module>
+    passage_embedding = model.encode(df1.tolist())
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/sentence_transformers/SentenceTransformer.py", line 161, in encode
+    features = self.tokenize(sentences_batch)
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/sentence_transformers/SentenceTransformer.py", line 319, in tokenize
+    return self._first_module().tokenize(texts)
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/sentence_transformers/models/Transformer.py", line 102, in tokenize
+    batch1.append(text_tuple[0])
+TypeError: 'float' object is not subscriptable
+[2023-09-21 17:32:12 +0000] [3059880] [INFO] Worker exiting (pid: 3059880)
+[2023-09-21 17:32:12 +0000] [3059879] [ERROR] Worker (pid:3059910) exited with code 3
+[2023-09-21 17:32:12 +0000] [3059879] [ERROR] Worker (pid:3059880) was sent SIGTERM!
+[2023-09-21 17:32:12 +0000] [3059879] [ERROR] Shutting down: Master
+[2023-09-21 17:32:12 +0000] [3059879] [ERROR] Reason: Worker failed to boot.
+[1m[3m%[23m[1m[0m                                                                                                                                                                                                                          k~/WORK/cms\[0m[23m[24m[J(dgm) [01;31m➜  [36mcms[00m [K[?1h=[?2004h[32mgunicorn[39m -w 2 -b 0.0.0.0:9820 server:app[?1l>[?2004l
+kgunicorn\[2023-09-21 17:33:02 +0000] [3060362] [INFO] Starting gunicorn 21.2.0
+[2023-09-21 17:33:02 +0000] [3060362] [INFO] Listening at: http://0.0.0.0:9820 (3060362)
+[2023-09-21 17:33:02 +0000] [3060362] [INFO] Using worker: sync
+[2023-09-21 17:33:02 +0000] [3060363] [INFO] Booting worker with pid: 3060363
+[2023-09-21 17:33:02 +0000] [3060393] [INFO] Booting worker with pid: 3060393
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 997 entries, 0 to 996
+Data columns (total 4 columns):
+ #   Column   Non-Null Count  Dtype  
+---  ------   --------------  -----  
+ 0   No.      342 non-null    float64
+ 1   code     164 non-null    object 
+ 2   Cate     342 non-null    object 
+ 3   Keyword  342 non-null    object 
+dtypes: float64(1), object(3)
+memory usage: 31.3+ KB
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 997 entries, 0 to 996
+Data columns (total 4 columns):
+ #   Column   Non-Null Count  Dtype  
+---  ------   --------------  -----  
+ 0   No.      342 non-null    float64
+ 1   code     164 non-null    object 
+ 2   Cate     342 non-null    object 
+ 3   Keyword  342 non-null    object 
+dtypes: float64(1), object(3)
+memory usage: 31.3+ KB
+[2023-09-21 17:33:10 +0000] [3060393] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/arbiter.py", line 609, in spawn_worker
+    worker.init_process()
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/util.py", line 371, in import_app
+    mod = importlib.import_module(module)
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/ubuntu/WORK/cms/server.py", line 12, in <module>
+    passage_embedding = model.encode(df["sum"].tolist())
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/sentence_transformers/SentenceTransformer.py", line 161, in encode
+    features = self.tokenize(sentences_batch)
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/sentence_transformers/SentenceTransformer.py", line 319, in tokenize
+    return self._first_module().tokenize(texts)
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/sentence_transformers/models/Transformer.py", line 102, in tokenize
+    batch1.append(text_tuple[0])
+TypeError: 'float' object is not subscriptable
+[2023-09-21 17:33:10 +0000] [3060393] [INFO] Worker exiting (pid: 3060393)
+[2023-09-21 17:33:10 +0000] [3060363] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/arbiter.py", line 609, in spawn_worker
+    worker.init_process()
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/util.py", line 371, in import_app
+    mod = importlib.import_module(module)
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/ubuntu/WORK/cms/server.py", line 12, in <module>
+    passage_embedding = model.encode(df["sum"].tolist())
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/sentence_transformers/SentenceTransformer.py", line 161, in encode
+    features = self.tokenize(sentences_batch)
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/sentence_transformers/SentenceTransformer.py", line 319, in tokenize
+    return self._first_module().tokenize(texts)
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/sentence_transformers/models/Transformer.py", line 102, in tokenize
+    batch1.append(text_tuple[0])
+TypeError: 'float' object is not subscriptable
+[2023-09-21 17:33:10 +0000] [3060363] [INFO] Worker exiting (pid: 3060363)
+[2023-09-21 17:33:10 +0000] [3060362] [ERROR] Worker (pid:3060393) exited with code 3
+[2023-09-21 17:33:10 +0000] [3060362] [ERROR] Worker (pid:3060363) exited with code 3
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/arbiter.py", line 209, in run
+    self.sleep()
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/arbiter.py", line 360, in sleep
+    ready = select.select([self.PIPE[0]], [], [], 1.0)
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/arbiter.py", line 530, in reap_workers
+    raise HaltServer(reason, self.WORKER_BOOT_ERROR)
+gunicorn.errors.HaltServer: <HaltServer 'Worker failed to boot.' 3>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/envs/dgm/bin/gunicorn", line 8, in <module>
+    sys.exit(run())
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 67, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/app/base.py", line 236, in run
+    super().run()
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/arbiter.py", line 229, in run
+    self.halt(reason=inst.reason, exit_status=inst.exit_status)
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/arbiter.py", line 342, in halt
+    self.stop()
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/arbiter.py", line 396, in stop
+    time.sleep(0.1)
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/arbiter.py", line 530, in reap_workers
+    raise HaltServer(reason, self.WORKER_BOOT_ERROR)
+gunicorn.errors.HaltServer: <HaltServer 'Worker failed to boot.' 3>
+[1m[3m%[23m[1m[0m                                                                                                                                                                                                                          k~/WORK/cms\[0m[23m[24m[J(dgm) [01;31m➜  [36mcms[00m [K[?1h=[?2004hgunicorn -w 2 -b 0.0.0.0:9820 server:app[40D[32ms[32mc[32mr[32me[32me[32mn[39m -r bb                            [28D[12D[39mg[39mu[39mn[39mi[39mc[39morn -w 2 -b 0.0.0.0:9820 server:app[40Dscreen -r bb                            [28D[12Dgunicorn -w 2 -b 0.0.0.0:9820 server:app[40Dscreen -r bb                            [28D[12Dgunicorn -w 2 -b 0.0.0.0:9820 server:app[40Dconda activate dgm                      [22D[18Dscreen -r bb      dmS bb -L[17Dgunicorn -w 2 -b 0.0.0.0:9820 server:appserver[43D[32mg[32mu[32mn[32mi[32mc[32mo[32mr[32mn[39m[4C4[30C[43D[39mp[39mi[39mp[39m [39mi[39mn[39ms[39mtall gunicorn                       
+[KM[33C[1B[KM[33C[20Dpython server.py    [1B[KM[29C[16Dpip install flask[1B[KM[30C[1B[KM[30C[17Dpython server.py [1B[KM[29C[16Dpip install pandasblack -U sentence-transformers[36Dconda activate dgm                  [18De dgm  [10Dcreat[2C--name dgm python=3.9[34Dmkdir[2Cms                         [25D[9D..       [32mp[32my[32mthon[39m test_video_swapsingle.py --crop_size 224 --use_mask --name people --Arc_path arcface_model/arcface_checkpoint.tar --pic_a_path ./demo_file/Iron_man.jpg --video_path ./demo_file/multi_people_1080p.mp4 --output_path ./output/multi_test_swapsingle.mp4 --temp_path ./temp_results[K[1CM[65D[39mu[39mn[39mz[39mi[39mp[78P[9C[14P[15C[K[1B[KM[41C[28D[32mu[32mn[32mz[32mi[32mp[39m [8P[10Cs.zip       [21D[39mu[39mn[39mz[39mi[39mp insightface_func/models/antelope.zip[42Dpip install onnxruntime-gpu               [14D[16Dinsightface==0.2.1 onnxruntime moviepy[37Dmageio moviepy insightface           [11D[27Dnumpy                      [22D[12Dsn[10C[17D[32mp[32mi[32mp[39m[2Cns[5Cpillow[18D[39mp[39mi[39mp[9Copencv-python[13Dtorch==1.13.1+cu116 torchvision==0.14.1+cu116 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu116[1B[KM[146C[1B[KM[146C[129Dli[2C                                                                                                                             [1B[KM[21C[8Dconda activate facedance_app_9020simswap[36D[32mc[32mo[32mn[32md[32ma[39m create --name fa[2Cdance_app_simswap python=3.9[46Dactivate --name facedance_app_simswap python=3.9[?2004l[1B[1m[3m%[23m[1m[0m                                                                                                                                                                                                                          k~/WORK/cms\[0m[23m[24m[J(dgm) [01;31m➜  [36mcms[00m [K[?1h=[?2004h[0m[23m[24m[J(dgm) [01;31m➜  [36mcms[00m [0m[23m[24m[J(dgm) [01;31m➜  [36mcms[00m [32mgunicorn[39m -w 2 -b 0.0.0.0:9820 server:app[?1l>[?2004l
+kgunicorn\[2023-09-21 17:33:46 +0000] [3060867] [INFO] Starting gunicorn 21.2.0
+[2023-09-21 17:33:46 +0000] [3060867] [INFO] Listening at: http://0.0.0.0:9820 (3060867)
+[2023-09-21 17:33:46 +0000] [3060867] [INFO] Using worker: sync
+[2023-09-21 17:33:46 +0000] [3060868] [INFO] Booting worker with pid: 3060868
+[2023-09-21 17:33:46 +0000] [3060898] [INFO] Booting worker with pid: 3060898
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 997 entries, 0 to 996
+Data columns (total 4 columns):
+ #   Column   Non-Null Count  Dtype  
+---  ------   --------------  -----  
+ 0   No.      342 non-null    float64
+ 1   code     164 non-null    object 
+ 2   Cate     342 non-null    object 
+ 3   Keyword  342 non-null    object 
+dtypes: float64(1), object(3)
+memory usage: 31.3+ KB
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 997 entries, 0 to 996
+Data columns (total 4 columns):
+ #   Column   Non-Null Count  Dtype  
+---  ------   --------------  -----  
+ 0   No.      342 non-null    float64
+ 1   code     164 non-null    object 
+ 2   Cate     342 non-null    object 
+ 3   Keyword  342 non-null    object 
+dtypes: float64(1), object(3)
+memory usage: 31.3+ KB
+[2023-09-21 17:33:53 +0000] [3060868] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/arbiter.py", line 609, in spawn_worker
+    worker.init_process()
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/util.py", line 371, in import_app
+    mod = importlib.import_module(module)
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/ubuntu/WORK/cms/server.py", line 12, in <module>
+    passage_embedding = model.encode(df["sum"].tolist())
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/sentence_transformers/SentenceTransformer.py", line 161, in encode
+    features = self.tokenize(sentences_batch)
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/sentence_transformers/SentenceTransformer.py", line 319, in tokenize
+    return self._first_module().tokenize(texts)
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/sentence_transformers/models/Transformer.py", line 102, in tokenize
+    batch1.append(text_tuple[0])
+TypeError: 'float' object is not subscriptable
+[2023-09-21 17:33:53 +0000] [3060868] [INFO] Worker exiting (pid: 3060868)
+[2023-09-21 17:33:53 +0000] [3060898] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/arbiter.py", line 609, in spawn_worker
+    worker.init_process()
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/util.py", line 371, in import_app
+    mod = importlib.import_module(module)
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/ubuntu/WORK/cms/server.py", line 12, in <module>
+    passage_embedding = model.encode(df["sum"].tolist())
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/sentence_transformers/SentenceTransformer.py", line 161, in encode
+    features = self.tokenize(sentences_batch)
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/sentence_transformers/SentenceTransformer.py", line 319, in tokenize
+    return self._first_module().tokenize(texts)
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/sentence_transformers/models/Transformer.py", line 102, in tokenize
+    batch1.append(text_tuple[0])
+TypeError: 'float' object is not subscriptable
+[2023-09-21 17:33:53 +0000] [3060898] [INFO] Worker exiting (pid: 3060898)
+[2023-09-21 17:33:54 +0000] [3060867] [ERROR] Worker (pid:3060868) exited with code 3
+[2023-09-21 17:33:54 +0000] [3060867] [ERROR] Worker (pid:3060898) exited with code 3
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/arbiter.py", line 209, in run
+    self.sleep()
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/arbiter.py", line 360, in sleep
+    ready = select.select([self.PIPE[0]], [], [], 1.0)
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/arbiter.py", line 530, in reap_workers
+    raise HaltServer(reason, self.WORKER_BOOT_ERROR)
+gunicorn.errors.HaltServer: <HaltServer 'Worker failed to boot.' 3>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/envs/dgm/bin/gunicorn", line 8, in <module>
+    sys.exit(run())
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 67, in run
+    WSGIApplication("%(prog)s [OPTIONS] [APP_MODULE]").run()
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/app/base.py", line 236, in run
+    super().run()
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/app/base.py", line 72, in run
+    Arbiter(self).run()
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/arbiter.py", line 229, in run
+    self.halt(reason=inst.reason, exit_status=inst.exit_status)
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/arbiter.py", line 342, in halt
+    self.stop()
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/arbiter.py", line 396, in stop
+    time.sleep(0.1)
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/arbiter.py", line 242, in handle_chld
+    self.reap_workers()
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/arbiter.py", line 530, in reap_workers
+    raise HaltServer(reason, self.WORKER_BOOT_ERROR)
+gunicorn.errors.HaltServer: <HaltServer 'Worker failed to boot.' 3>
+[1m[3m%[23m[1m[0m                                                                                                                                                                                                                          k~/WORK/cms\[0m[23m[24m[J(dgm) [01;31m➜  [36mcms[00m [K[?1h=[?2004h[32mgunicorn[39m -w 2 -b 0.0.0.0:9820 server:app[40D[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[1C[P[27C [28D1 -b 0.0.0.0:9820 server:app[27D[?1l>[?2004l
+kgunicorn\[2023-09-21 17:34:06 +0000] [3061232] [INFO] Starting gunicorn 21.2.0
+[2023-09-21 17:34:06 +0000] [3061232] [INFO] Listening at: http://0.0.0.0:9820 (3061232)
+[2023-09-21 17:34:06 +0000] [3061232] [INFO] Using worker: sync
+[2023-09-21 17:34:06 +0000] [3061233] [INFO] Booting worker with pid: 3061233
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 997 entries, 0 to 996
+Data columns (total 4 columns):
+ #   Column   Non-Null Count  Dtype  
+---  ------   --------------  -----  
+ 0   No.      342 non-null    float64
+ 1   code     164 non-null    object 
+ 2   Cate     342 non-null    object 
+ 3   Keyword  342 non-null    object 
+dtypes: float64(1), object(3)
+memory usage: 31.3+ KB
+[2023-09-21 17:34:12 +0000] [3061233] [ERROR] Exception in worker process
+Traceback (most recent call last):
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/arbiter.py", line 609, in spawn_worker
+    worker.init_process()
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/workers/base.py", line 134, in init_process
+    self.load_wsgi()
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/workers/base.py", line 146, in load_wsgi
+    self.wsgi = self.app.wsgi()
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/app/base.py", line 67, in wsgi
+    self.callable = self.load()
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 58, in load
+    return self.load_wsgiapp()
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/app/wsgiapp.py", line 48, in load_wsgiapp
+    return util.import_app(self.app_uri)
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/gunicorn/util.py", line 371, in import_app
+    mod = importlib.import_module(module)
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 850, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "/home/ubuntu/WORK/cms/server.py", line 12, in <module>
+    passage_embedding = model.encode(df["sum"].tolist())
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/sentence_transformers/SentenceTransformer.py", line 161, in encode
+    features = self.tokenize(sentences_batch)
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/sentence_transformers/SentenceTransformer.py", line 319, in tokenize
+    return self._first_module().tokenize(texts)
+  File "/home/ubuntu/miniconda/envs/dgm/lib/python3.9/site-packages/sentence_transformers/models/Transformer.py", line 102, in tokenize
+    batch1.append(text_tuple[0])
+TypeError: 'float' object is not subscriptable
+[2023-09-21 17:34:12 +0000] [3061233] [INFO] Worker exiting (pid: 3061233)
+[2023-09-21 17:34:13 +0000] [3061232] [ERROR] Worker (pid:3061233) exited with code 3
+[2023-09-21 17:34:13 +0000] [3061232] [ERROR] Shutting down: Master
+[2023-09-21 17:34:13 +0000] [3061232] [ERROR] Reason: Worker failed to boot.
+[1m[3m%[23m[1m[0m                                                                                                                                                                                                                          k~/WORK/cms\[0m[23m[24m[J(dgm) [01;31m➜  [36mcms[00m [K[?1h=[?2004hppytho[1m[31mp[1m[31my[1m[31mt[1m[31mh[0m[39m on server.py[12D[1m[31mt[0m[39m[0m[39m             [13Dhon server.py[13D[1m[31mp[1m[31my[0m[39m[0m[39m              [14Dthon server.py[14D[1m[31mp[0m[39m[0m[39m               [15D[1m[31mp[0m[39mip install gunicorn
+[KM[14C[0m[39m                    [1B[KM[13C[32mgunicorn[39m -w 1 -b 0.0.0.0:9820 server:app[28D2[27C[?1l>[?2004l[1Bkgunicorn\[2023-09-21 17:36:26 +0000] [3062651] [INFO] Starting gunicorn 21.2.0
+[2023-09-21 17:36:26 +0000] [3062651] [INFO] Listening at: http://0.0.0.0:9820 (3062651)
+[2023-09-21 17:36:26 +0000] [3062651] [INFO] Using worker: sync
+[2023-09-21 17:36:26 +0000] [3062652] [INFO] Booting worker with pid: 3062652
+[2023-09-21 17:36:26 +0000] [3062682] [INFO] Booting worker with pid: 3062682
+[2023-09-21 17:37:27 +0000] [3062651] [INFO] Handling signal: winch
+^C[2023-09-21 17:38:27 +0000] [3062651] [INFO] Handling signal: int
+[2023-09-21 17:38:27 +0000] [3062652] [INFO] Worker exiting (pid: 3062652)
+[2023-09-21 17:38:27 +0000] [3062682] [INFO] Worker exiting (pid: 3062682)
+^C^C[2023-09-21 17:38:28 +0000] [3062651] [INFO] Shutting down: Master
+[1m[3m%[23m[1m[0m                                                                                                                                                                                                                          k~/WORK/cms\[0m[23m[24m[J(dgm) [01;32m➜  [36mcms[00m [K[?1h=[?2004h[32mgunicorn[39m -w 2 -b 0.0.0.0:9820 server:app[?1l>[?2004l
+kgunicorn\[2023-09-21 17:38:29 +0000] [3063249] [INFO] Starting gunicorn 21.2.0
+[2023-09-21 17:38:29 +0000] [3063249] [INFO] Listening at: http://0.0.0.0:9820 (3063249)
+[2023-09-21 17:38:29 +0000] [3063249] [INFO] Using worker: sync
+[2023-09-21 17:38:29 +0000] [3063250] [INFO] Booting worker with pid: 3063250
+[2023-09-21 17:38:29 +0000] [3063280] [INFO] Booting worker with pid: 3063280
+Cate
+Residential Area-Building     1
+Restaurant                    1
+Food Market-Stall             1
+Coffee Shop                   1
+Shooting Range                1
+                             ..
+Video Arcade-Game Room        1
+Cinema                        1
+Theatre, Music and Culture    1
+Landmark Attraction           1
+Tourist Attraction            1
+Name: count, Length: 164, dtype: int64
+Cate
+Residential Area-Building     1
+Restaurant                    1
+Food Market-Stall             1
+Coffee Shop                   1
+Shooting Range                1
+                             ..
+Video Arcade-Game Room        1
+Cinema                        1
+Theatre, Music and Culture    1
+Landmark Attraction           1
+Tourist Attraction            1
+Name: count, Length: 164, dtype: int64
+^C[2023-09-21 17:38:38 +0000] [3063249] [INFO] Handling signal: int
+[2023-09-21 17:38:38 +0000] [3063250] [INFO] Worker exiting (pid: 3063250)
+[2023-09-21 17:38:38 +0000] [3063280] [INFO] Worker exiting (pid: 3063280)
+^C[2023-09-21 17:38:38 +0000] [3063249] [ERROR] Worker (pid:3063280) was sent SIGINT!
+[2023-09-21 17:38:38 +0000] [3063249] [ERROR] Worker (pid:3063250) was sent SIGINT!
+[2023-09-21 17:38:38 +0000] [3063249] [INFO] Shutting down: Master
+[1m[3m%[23m[1m[0m                                                                                                                                                                                                                          k~/WORK/cms\[0m[23m[24m[J(dgm) [01;32m➜  [36mcms[00m [K[?1h=[?2004h[?2004l
+[1m[3m%[23m[1m[0m                                                                                                                                                                                                                          k~/WORK/cms\[0m[23m[24m[J(dgm) [01;31m➜  [36mcms[00m [K[?1h=[?2004h[32mgunicorn[39m -w 2 -b 0.0.0.0:9820 server:app[?1l>[?2004l
+kgunicorn\[2023-09-21 17:38:45 +0000] [3063612] [INFO] Starting gunicorn 21.2.0
+[2023-09-21 17:38:45 +0000] [3063612] [INFO] Listening at: http://0.0.0.0:9820 (3063612)
+[2023-09-21 17:38:45 +0000] [3063612] [INFO] Using worker: sync
+[2023-09-21 17:38:45 +0000] [3063616] [INFO] Booting worker with pid: 3063616
+[2023-09-21 17:38:45 +0000] [3063628] [INFO] Booting worker with pid: 3063628
